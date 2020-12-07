@@ -7,6 +7,6 @@ The Maturity indicators follow the template provided by the "FAIR Maturity Testi
 
 The template used is available in this repository folder: [https://github.com/FAIRMetrics/Metrics/tree/master/MaturityIndicators](https://github.com/FAIRMetrics/Metrics/tree/master/MaturityIndicators)
 
-Currently, one maturity indicator is proposed under principle R1.3 to make sure the assessed study measures sufficient selected physiochemical properties to be used in nanoQSAR applications.
+Currently, ten maturity indicators are proposed under principle R1.3 to make sure the assessed study is qualified to be used in nanoQSAR applications.
 
 Further maturity indicators will be added.
