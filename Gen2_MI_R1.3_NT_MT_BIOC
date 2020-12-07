@@ -1,0 +1,54 @@
+@prefix this: <https://purl.org/fair-metrics/FM_R1.3#nanopub.RASu1_MVbqSBVkWrYeSxoTt0WGQZek7-LGfk6O3131IZA> .
+@prefix sub: <https://purl.org/fair-metrics/FM_R1.3#nanopub.RASu1_MVbqSBVkWrYeSxoTt0WGQZek7-LGfk6O3131IZA.> .
+@prefix metrics: <https://purl.org/fair-metrics/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pav: <http://swan.mindinformatics.org/ontologies/1.2/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fair: <http://purl.org/fair-ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix fm: <https://purl.org/fair-metrics/terms/> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubinfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+  fairmi:Gen2_MI_R1.3_NT_MT_BIOC a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator Gen2-MI-R1.3_NT_MT_BIOC";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples "";
+    fairmi:measuring "Whether the characterizations performed in a fluid mimicking biological conditions.";
+    fairmi:procedure """Whether the characterizations is performed in a fluid mimicking biological conditions should be provided in a machine-readable format (e.g JSON-LD) which can be queried using open universal protocol like HTTP.""";
+    fairmi:rationale """The properties of the fluid has a considerable effect on the characterizations  of a nanomaterial. Therefore, if the characterizations is performed in a fluid mimicking biological conditions or not should be provided when using the characteristics as features for nanoQSAR and predictive toxicology model development.""";
+    fairmi:relevance "Nano toxicity related datasets.";
+    fairmi:requirements "a metadata field \"characterization in biological conditions\" should be provided with possible values: Yes/No OR 0/1 ";
+    fairmi:validation "The value "Yes/No" OR "0/1" should be there for the metadata field's key "characterization in biological conditions"." .
+}
+
+sub:provenance {
+  sub:_1 dce:format "text/markdown";
+    a void:Dataset, dcat:Distribution;
+    dcat:downloadURL fairmi:Gen2_MI_R1.3_NT_MT_BIOC.md .
+  
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990, orcid:0000-0001-7542-0286;
+    dcat:distribution sub:_1 .
+}
+
+sub:pubinfo {
+  orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
+  
+  this: dct:created "2020-11-18"^^xsd:dateTime;
+    dct:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dct:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
+}

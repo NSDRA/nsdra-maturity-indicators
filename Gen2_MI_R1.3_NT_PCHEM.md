@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 Egon Willighagen, ORCID:0000-0001-7542-0286
 
-#### Publication Date: 2019-02-26
+#### Publication Date: 2020-10-08
 #### Last Edit: 2020-10-08
 #### Accepted: pending
 
@@ -15,9 +15,9 @@ This maturity indicator falls under the FAIR principle R1.3:
 (meta)data meet domain-relevant community standards
 
 The ID of this MI is composed by appending the acronym (NT) which stands for (Nano Toxicity) and the acronym (PChem) which stands for physio-chemical properties
-to indicate that this MI is related to the provided physio-chemical properties of the nanomaterials in a nano toxicity study(meta)data 
+to indicate that this MI is related to the provided physio-chemical properties of the nanomaterials in a nano toxicity study (meta)data 
 
-### Maturity Indicator Name:   Physicochemical properties that should be characterized in an toxicity study for the NM (for nanoQSAR applications)
+### Maturity Indicator Name:   Physicochemical properties that should be characterized in a nano toxicity study (for nanoQSAR applications)
 
 ----
 
@@ -29,8 +29,7 @@ If the conducted study measures at least four selected physiochemical properties
 
 ### Why should we measure it?
 NanoQSAR models for hazard/toxicity assement requires identification of the modeled NMs involved in building the models.
-Certain physio-chemical properties are critical for NM identification and are related to their risk/toxicity. Hence, providing
-such (meta)data is important for nanoQSAR applications.
+Certain physio-chemical properties are critical for NM identification and are related to their risk/toxicity. Hence, providing such (meta)data is important for nanoQSAR applications.
 
 
 
@@ -46,8 +45,7 @@ The Metadata:
 
 
 ### How is the measurement executed?
-The physio-chemical properties measured should be provided in a machine-readable format (e.g JSON-LD) which can be queried using
-open universal protocol like HTTP.
+The physio-chemical properties measured should be provided in a machine-readable format (e.g JSON-LD) which can be queried using open universal protocol like HTTP.
 
 
 ### What is/are considered valid result(s)?

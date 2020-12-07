@@ -1,0 +1,54 @@
+@prefix this: <https://purl.org/fair-metrics/FM_R1.3#nanopub.RASu1_MVbqSBVkWrYeSxoTt0WGQZek7-LGfk6O3131IZA> .
+@prefix sub: <https://purl.org/fair-metrics/FM_R1.3#nanopub.RASu1_MVbqSBVkWrYeSxoTt0WGQZek7-LGfk6O3131IZA.> .
+@prefix metrics: <https://purl.org/fair-metrics/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pav: <http://swan.mindinformatics.org/ontologies/1.2/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fair: <http://purl.org/fair-ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix fm: <https://purl.org/fair-metrics/terms/> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion ;
+		np:hasProvenance sub:provenance ;
+		np:hasPublicationInfo sub:pubinfo ;
+		a np:Nanopublication .
+}
+
+sub:assertion {
+  fairmi:Gen2_MI_R1.3_NT_BIO_PASSAGE a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator Gen2-MI-R1.3_NT_BIO_PASSAGE";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples "";
+    fairmi:measuring "If the passage number (total number of times a cell culture has been subcultured) is known and reported.";
+    fairmi:procedure """The passage number should be provided in a machine-readable format (e.g JSON-LD) which can be queried using open universal protocol like HTTP.""";
+    fairmi:rationale """Passage number affects a cell line’s characteristics over time. Cell lines at high passage numbers experience alterations in morphology, response to stimuli, growth rates, protein expression and transfection efficiency, compared to lower passage cells. Therefore, passage number may have effect on the biological response, so, it is important to report the passage number in nano toxicity studies especially for nanoQSAR and predictive toxicology applications.""";
+    fairmi:relevance "Nano toxicity related datasets.";
+    fairmi:requirements "a metadata field \"passage number\" should be provided with possible values: a number (if reported) ";
+    fairmi:validation "A number value should be present for the metadata field's key \"passage number\"." .
+}
+
+sub:provenance {
+  sub:_1 dce:format "text/markdown";
+    a void:Dataset, dcat:Distribution;
+    dcat:downloadURL fairmi:Gen2_MI_R1.3_NT_BIO_PASSAGE.md .
+  
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990, orcid:0000-0001-7542-0286;
+    dcat:distribution sub:_1 .
+}
+
+sub:pubinfo {
+  orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
+  
+  this: dct:created "2020-11-24"^^xsd:dateTime;
+    dct:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dct:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
+}
