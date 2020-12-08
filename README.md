@@ -23,13 +23,13 @@ Currently, ten maturity indicators are proposed under principle R1.3 to make sur
 
    
 
-5. The nanomaterials coating details provided by a nano toxicity study 
+5. The nanomaterials coating details provided by a nano toxicity study  [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/Gen2_MI_R1.3_NT_MT_COATING.md)
 
-6. The characterizations performed in a fluid mimicking biological conditions in a nano toxicity study 
+6. The characterizations performed in a fluid mimicking biological conditions in a nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/Gen2_MI_R1.3_NT_MT_BIOC.md)
 
-7. The cell line details are reported by a nano toxicity study 
+7. The cell line details are reported by a nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/Gen2_MI_R1.3_NT_BIO_CELLLINE.md)
 
-8. The passage number is reported by a nano toxicity study 
+8. The passage number is reported by a nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/Gen2_MI_R1.3_NT_BIO_PASSAGE.md) 
 
 9. The dose (experimental detail) is reported by a nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/Gen2_MI_R1.3_NT_EXP_DOSE.md)
 
