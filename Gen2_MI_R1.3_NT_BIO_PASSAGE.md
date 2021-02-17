@@ -1,7 +1,7 @@
 # TITLE:  FAIR Maturity Indicator Gen2-MI-R1.3_NT_BIO_PASSAGE
 
 ## Authors: 
-Ammar Ammar, ORCID:0000-0002-8399-8990
+Ammar Ammar, ORCID:0000-0002-8399-8990 </br>
 Egon Willighagen, ORCID:0000-0001-7542-0286
 
 #### Publication Date: 2020-11-24
