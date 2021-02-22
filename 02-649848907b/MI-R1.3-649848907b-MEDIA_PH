@@ -1,0 +1,87 @@
+@prefix this: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-649848907b-MEDIA_PH/9f66ed2a8ecee813e153ab22f93cf7b2> .
+@prefix sub: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-649848907b-MEDIA_PH/9f66ed2a8ecee813e153ab22f93cf7b2#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion .
+	this: np:hasProvenance sub:provenance .
+	this: np:hasPublicationInfo sub:pubinfo .
+	this: a np:Nanopublication .
+}
+
+sub:assertion {
+    fairmi:MI-R1.3-649848907b-MEDIA_PH a fairmi:FAIR-Maturity-Indicator .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH rdfs:label "FAIR Maturity Indicator MI-R1.3-649848907b-MEDIA_PH" .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH foaf:primaryTopic fair:R1.3 .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:comments """""" .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:examples """
+ {
+ 	\"@context\": {
+ 		\"bs\": \"https://bioschemas.org/\",
+ 		\"schema\": \"https://schema.org/\",
+ 		\"citation\": \"schema:citation\",
+ 		\"name\": \"schema:name\",
+ 		\"url\": \"schema:name\",
+ 		\"variableMeasured\": \"schema:variableMeasured\",
+ 		\"unitText\": \"schema:unitText\"
+ 	},
+ 	\"@type\": \"schema:Dataset\",
+ 	\"name\": \"Dataset title\",
+ 	\"@id\": \"Dataset DOI\",
+ 	\"url\": \"Dataset URL\",
+ 	\"citation\": \"Dataset Citation/Publication\",
+ 	\"variableMeasured\": [
+ 		{
+ 			\"@type\": \"schema:PropertyValue\",
+ 			\"name\": \"media pH\"
+ 		}
+ 	]
+ }""" .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:measuring """If the pH of the media is reported by the nano toxicity study data or not.""" .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:procedure """The media pH should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:rationale """The measured EPM (Electrophoretic mobility) and the modeled zeta-potential value are affected by
+these media dependent factos:
+* pH, 
+* Ionic strength,
+ """ .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:relevance """For nano toxicity related datasets. """ .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+
+| Field Name      | Alternative terms                  |
+| --------------- | ---------------------------------- |
+| media pH        | media_pH,<br>media-pH,<br>MediaPH  |""" .
+    fairmi:MI-R1.3-649848907b-MEDIA_PH fairmi:validation """The presence of the field \"media pH\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+}
+
+sub:provenance {
+    sub:_1 dcelem:format "text/markdown" .
+    sub:_1 a void:Dataset, dcat:Distribution .
+    sub:_1 dcat:downloadURL fairmi:MI-R1.3-649848907b-MEDIA_PH.md .
+  
+    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990, orcid:0000-0001-7542-0286 .
+    sub:assertion dcat:distribution sub:_1 .
+}
+
+sub:pubinfo {
+  
+  orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
+  orcid:0000-0001-7542-0286 foaf:name "Egon Willighagen" .
+  
+  this: dcterms:created "2021-02-12"^^xsd:date .
+  this: dcterms:modified "2021-02-22"^^xsd:date .
+  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
+  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
+  this: pav:authoredBy orcid:0000-0002-8399-8990 .
+  this: pav:createdBy orcid:0000-0002-8399-8990 .
+}
