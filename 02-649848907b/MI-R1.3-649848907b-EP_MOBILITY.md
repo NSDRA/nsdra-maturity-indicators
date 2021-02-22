@@ -55,6 +55,7 @@ For nano toxicity related datasets.
 
 ### Examples of good practices (that would score well on this assessment)
 
+```json
  {
  	"@context": {
  		"bs": "https://bioschemas.org/",
@@ -77,6 +78,7 @@ For nano toxicity related datasets.
  		}
  	]
  }
+```
 
 ### Comments
 
