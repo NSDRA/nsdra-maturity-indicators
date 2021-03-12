@@ -1,4 +1,4 @@
-## List 5 (36 Maturity Indicators)
+## List 5 (32 Maturity Indicators)
 
 Minimum set of parameters recommended for inter-study comparison of the fate and effects of nanomaterials in biological media.
 
