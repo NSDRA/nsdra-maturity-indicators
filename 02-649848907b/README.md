@@ -1,4 +1,4 @@
-## List 2 (17 Maturity Indicators)
+## List 2 (18 Maturity Indicators)
 
 Values needed to interpret the meaning of the reported zeta-potential and maximize its utility for cross-comparison with other reported values.
 

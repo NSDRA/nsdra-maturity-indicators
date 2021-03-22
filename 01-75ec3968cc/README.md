@@ -1,4 +1,4 @@
-## List 2 (17 Maturity Indicators)
+## List 2 (19 Maturity Indicators)
 
 Nanomaterial properties contributing to hazard
 
