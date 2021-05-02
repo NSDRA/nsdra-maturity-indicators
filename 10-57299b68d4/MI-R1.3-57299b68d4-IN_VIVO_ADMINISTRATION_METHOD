@@ -43,7 +43,7 @@ sub:assertion {
  	\"variableMeasured\": [
  		{
  			\"@type\": \"schema:PropertyValue\",
- 			\"name\": \"administration method\"
+ 			\"name\": \"administration method in-vivo\"
  		}
  	]
  }""" .
@@ -53,10 +53,10 @@ sub:assertion {
     fairmi:MI-R1.3-57299b68d4-IN_VIVO_ADMINISTRATION_METHOD fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-57299b68d4-IN_VIVO_ADMINISTRATION_METHOD fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
-| Field Name                | Alternative terms                                |
-| ------------------------- | ------------------------------------------------ |
-| administration method     | administration-method,<br>administration_method  |""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_ADMINISTRATION_METHOD fairmi:validation """The presence of the field \"administration method\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| Field Name                     | Alternative terms                                                |
+| ------------------------------ | ---------------------------------------------------------------- |
+| administration method in-vivo  | administration-method-in-vivo,<br>administration_method_in_vivo  |""" .
+    fairmi:MI-R1.3-57299b68d4-IN_VIVO_ADMINISTRATION_METHOD fairmi:validation """The presence of the field \"administration method in-vivo\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
 }
 
 sub:provenance {
@@ -73,7 +73,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-03-02"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

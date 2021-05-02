@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-24
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE)
@@ -43,10 +43,10 @@ If the value is measured and reported in the data, the following field(s) should
 | agglomeration state | agglomeration-state,<br>agglomeration_state,<br>AgglomerationState,<br>aggregation,<br>Aggregation,<br>AGGREGATION  |
 
 ### How is the measurement executed?
-The nanomaterial's composition should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.
+The nanomaterial's agglomeration state should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.
 
 ### What is/are considered valid result(s)?
-The presence of the field "composition" in the JSON-LD metadata means the measurement is reported which is the valid result.
+The presence of the field "agglomeration state" in the JSON-LD metadata means the measurement is reported which is the valid result.
 
 ### For which digital resource(s) is this relevant? (or 'all')
 For nano toxicity related datasets.  
@@ -71,7 +71,7 @@ For nano toxicity related datasets.
  	"variableMeasured": [
  		{
  			"@type": "schema:PropertyValue",
- 			"name": "composition"
+ 			"name": "agglomeration state"
  		}
  	]
  }

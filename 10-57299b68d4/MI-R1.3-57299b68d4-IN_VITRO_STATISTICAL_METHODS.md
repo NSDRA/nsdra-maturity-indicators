@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-02
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-57299b68d4-IN_VITRO_STATISTICAL_METHODS](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-57299b68d4-IN_VITRO_STATISTICAL_METHODS)
@@ -38,15 +38,15 @@ This is one of the quality measure that need to be reported by toxicity risk ass
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
-| Field Name                | Alternative terms                               |
-| ------------------------- | ----------------------------------------------- |
-| statistical methods     | statistical-methods,<br>statistical_methods |
+| Field Name                    | Alternative terms                                             |
+| ----------------------------- | ------------------------------------------------------------- |
+| statistical methods in-vitro  | statistical-methods-in-vitro,<br>statistical_methods_in_vitro |
 
 ### How is the measurement executed?
 The statistical methods should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.
 
 ### What is/are considered valid result(s)?
-The presence of the field "statistical methods" in the JSON-LD metadata means the measurement is reported which is the valid result.
+The presence of the field "statistical methods in-vitro" in the JSON-LD metadata means the measurement is reported which is the valid result.
 
 ### For which digital resource(s) is this relevant? (or 'all')
 For nano toxicity related datasets.  
@@ -71,7 +71,7 @@ For nano toxicity related datasets.
  	"variableMeasured": [
  		{
  			"@type": "schema:PropertyValue",
- 			"name": "statistical methods"
+ 			"name": "statistical methods in-vitro"
  		}
  	]
  }

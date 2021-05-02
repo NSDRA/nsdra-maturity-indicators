@@ -1,0 +1,1177 @@
+{"lists": [
+    {"maturity indicators": []},
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "75ec3968ccf87d4a5cc07189ab4f688f9fab032f2d54e9899aacb4389a818962",
+                "type": "DOI",
+                "URL": "https://doi.org/10.1021/acsnano.5b03496"
+            },
+            "title": "Where Are We Heading in Nanotechnology Environmental Health and Safety and Materials Characterization?"
+        },
+        "maturity indicators": [
+            {
+                "name": "The bandgap in semiconductor particles is reported by the nano toxicity study",
+                "variable": "bandgap"
+            },
+            {
+                "name": "The nanomaterial's catalytic effect is reported by the nano toxicity study",
+                "variable": "catalytic effect"
+            },
+            {
+                "name": "The presence of cationic particles with a proton sponge effect is reported by the nano toxicity study",
+                "variable": "cationic particles with a proton sponge effect"
+            },
+            {
+                "name": "The nanomaterial's compartmentalized toxicity is reported by the nano toxicity study",
+                "variable": "compartmentalized toxicity"
+            },
+            {
+                "name": "The long aspect ratio injury to lysosomes is reported by the nano toxicity study",
+                "variable": "long aspect ratio injury to lysosomes"
+            },
+            {
+                "name": "The presence of silica siloxane rings and silanols is reported by the nano toxicity study",
+                "variable": "silica siloxane rings and silanols"
+            },
+            {
+                "name": "The nanomaterial's charge (electrophoretic mobility and zeta-potential) is reported by the nano toxicity study",
+                "variable": "charge"
+            },
+            {
+                "name": "The nanomaterial's corona is reported by the nano toxicity study",
+                "variable": "corona"
+            },
+            {
+                "name": "The nanomaterial's dissolution is reported by the nano toxicity study",
+                "variable": "dissolution"
+            },
+            {
+                "name": "The nanomaterial's sorption is reported by the nano toxicity study",
+                "variable": "sorption"
+            },
+            {
+                "name": "The nanomaterial's state of agglomeration is reported by the nano toxicity study",
+                "variable": "agglomeration state"
+            },
+            {
+                "name": "The nanomaterial's surface reconstruction is reported by the nano toxicity study",
+                "variable": "surface reconstruction"
+            },
+            {
+                "name": "The nanomaterial's chemical composition is reported by the nano toxicity study",
+                "variable": "chemical composition"
+            },
+            {
+                "name": "The nanomaterial's crystallinity (crystal structure) is reported by the nano toxicity study",
+                "variable": "crystallinity"
+            },
+            {
+                "name": "The nanomaterial's purity is reported by the nano toxicity study",
+                "variable": "purity"
+            },
+            {
+                "name": "The nanomaterial's shape is reported by the nano toxicity study",
+                "variable": "shape"
+            },
+            {
+                "name": "The nanomaterial's size distribution is reported by the nano toxicity study",
+                "variable": "size distribution"
+            },
+            {
+                "name": "The nanomaterial's surface area is reported by the nano toxicity study",
+                "variable": "surface area"
+            },
+            {
+                "name": "The nanomaterial's surface coatings is reported by the nano toxicity study",
+                "variable": "surface coatings"
+            }
+        ],
+        "id": "75ec3968cc",
+        "title": "Nanomaterial properties contributing to hazard"
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "649848907b45d263f45d575956387ac4d87cba2720364ebfdeb75d660b4bed5e",
+                "type": "DOI",
+                "URL": "https://doi.org/10.1039/C6EN00136J"
+            },
+            "title": "Guidance to improve the scientific value of zeta potential measurements in nanoEHS"
+        },
+        "maturity indicators": [
+            {
+                "name": "The Electrophoretic mobility is reported by the nano toxicity study",
+                "variable": "electrophoretic mobility"
+            },
+            {
+                "name": "The number of measurements made and averaged to determine each zeta-potential is reported by the nano toxicity study",
+                "variable": "number of measurements"
+            },
+            {
+                "name": "The total number of replicate measurements is reported by the nano toxicity study",
+                "variable": "number of replicates"
+            },
+            {
+                "name": "The observed trends in replicate measurements is reported by the nano toxicity study",
+                "variable": "observed trends"
+            },
+            {
+                "name": "The measurement parameter \"applied voltage\" is reported by the nano toxicity study",
+                "variable": "applied voltage"
+            },
+            {
+                "name": "The media dependent factor \"ionic composition\" is reported by the nano toxicity study",
+                "variable": "media ionic composition"
+            },
+            {
+                "name": "The media dependent factor \"ionic strength\" is reported by the nano toxicity study",
+                "variable": "media ionic strength"
+            },
+            {
+                "name": "Macromolecules/NOM present in the medium and their concentration are reported by the nano toxicity study",
+                "variable": "media macromolecules"
+            },
+            {
+                "name": "The nanomaterial concentration in the media is reported by the nano toxicity study",
+                "variable": "media nanomaterial concentration"
+            },
+            {
+                "name": "The pH of the media is reported by the nano toxicity study",
+                "variable": "media pH"
+            },
+            {
+                "name": "The media dependent factor \"conductance\" is reported by the nano toxicity study",
+                "variable": "media specific conductance"
+            },
+            {
+                "name": "The temperature of the media is reported by the nano toxicity study",
+                "variable": "media temperature"
+            },
+            {
+                "name": "The viscosity of the media is reported by the nano toxicity study",
+                "variable": "media viscosity"
+            },
+            {
+                "name": "The model used to compute the zeta-potential is reported by the nano toxicity study",
+                "variable": "model"
+            },
+            {
+                "name": "The composition is reported by the nano toxicity study",
+                "variable": "composition"
+            },
+            {
+                "name": "The shape is reported by the nano toxicity study",
+                "variable": "shape"
+            },
+            {
+                "name": "The size distribution is reported by the nano toxicity study",
+                "variable": "size distribution"
+            },
+            {
+                "name": "The surface functionalization is reported by the nano toxicity study",
+                "variable": "surface functionalization"
+            }
+        ],
+        "id": "649848907b",
+        "title": "Values needed to interpret the meaning of the reported zeta-potential and maximize its utility for cross-comparison with other reported values."
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "88b52fa7b80a4734a28814e926adc9f6d51bff9aa5cece8c779e06302dc621ea",
+                "type": "DOI",
+                "URL": "https://doi.org/10.3390/nano10102033"
+            },
+            "title": "Metadata Stewardship in Nanosafety Research: Community-Driven Organization of Metadata Schemas to Support FAIR NanoScience Data"
+        },
+        "maturity indicators": [
+            {
+                "name": "The agglomerate aspect ratio is reported by the nano toxicity study",
+                "variable": "agglomerate aspect ratio"
+            },
+            {
+                "name": "The agglomerate effective density is reported by the nano toxicity study",
+                "variable": "agglomerate effective density"
+            },
+            {
+                "name": "The agglomerate packing factor is reported by the nano toxicity study",
+                "variable": "agglomerate packing factor"
+            },
+            {
+                "name": "The agglomerate packing method is reported by the nano toxicity study",
+                "variable": "agglomerate packing method"
+            },
+            {
+                "name": "The agglomerate polydispersity is reported by the nano toxicity study",
+                "variable": "agglomerate polydispersity"
+            },
+            {
+                "name": "The agglomerate shape is reported by the nano toxicity study",
+                "variable": "agglomerate shape"
+            },
+            {
+                "name": "The agglomerate size diameter is reported by the nano toxicity study",
+                "variable": "agglomerate size diameter"
+            },
+            {
+                "name": "The agglomerate size statistical measure is reported by the nano toxicity study",
+                "variable": "agglomerate size statistical measure"
+            },
+            {
+                "name": "The agglomerate size determination method is reported by the nano toxicity study",
+                "variable": "agglomerate size determination method"
+            },
+            {
+                "name": "The agglomerate size qualifier is reported by the nano toxicity study",
+                "variable": "agglomerate size qualifier"
+            },
+            {
+                "name": "The agglomerate stability is reported by the nano toxicity study",
+                "variable": "agglomerate stability"
+            },
+            {
+                "name": "The experiment administrated dose is reported by the nano toxicity study",
+                "variable": "experiment administrated dose"
+            },
+            {
+                "name": "The experiment delivered dose is reported by the nano toxicity study",
+                "variable": "experiment delivered dose"
+            },
+            {
+                "name": "The experiment dispersion protocol is reported by the nano toxicity study",
+                "variable": "experiment dispersion protocol"
+            },
+            {
+                "name": "The experiment exposure time is reported by the nano toxicity study",
+                "variable": "experiment exposure time"
+            },
+            {
+                "name": "The experiment medium density is reported by the nano toxicity study",
+                "variable": "experiment medium density"
+            },
+            {
+                "name": "The experiment medium dish depth is reported by the nano toxicity study",
+                "variable": "experiment medium dish depth"
+            },
+            {
+                "name": "The experiment medium temprature is reported by the nano toxicity study",
+                "variable": "experiment medium temprature"
+            },
+            {
+                "name": "The experiment medium type is reported by the nano toxicity study",
+                "variable": "experiment medium type"
+            },
+            {
+                "name": "The experiment medium viscosity is reported by the nano toxicity study",
+                "variable": "experiment medium viscosity"
+            },
+            {
+                "name": "The experiment method is reported by the nano toxicity study",
+                "variable": "experiment method"
+            },
+            {
+                "name": "The experiment model is reported by the nano toxicity study",
+                "variable": "experiment model"
+            },
+            {
+                "name": "The experiment tool name is reported by the nano toxicity study",
+                "variable": "experiment tool name"
+            },
+            {
+                "name": "The experiment tool reference is reported by the nano toxicity study",
+                "variable": "experiment tool reference"
+            },
+            {
+                "name": "The experiment tool version is reported by the nano toxicity study",
+                "variable": "experiment tool version"
+            },
+            {
+                "name": "The primary particle aspect ratio is reported by the nano toxicity study",
+                "variable": "primary particle aspect ratio"
+            },
+            {
+                "name": "The primary particle density is reported by the nano toxicity study",
+                "variable": "primary particle density"
+            },
+            {
+                "name": "The primary particle dissolution rate is reported by the nano toxicity study",
+                "variable": "primary particle dissolution rate"
+            },
+            {
+                "name": "The primary particle polydispersity is reported by the nano toxicity study",
+                "variable": "primary particle polydispersity"
+            },
+            {
+                "name": "The primary particle porosity is reported by the nano toxicity study",
+                "variable": "primary particle porosity"
+            },
+            {
+                "name": "The primary particle shape is reported by the nano toxicity study",
+                "variable": "primary particle shape"
+            },
+            {
+                "name": "The primary particle diameter is reported by the nano toxicity study",
+                "variable": "primary particle diameter"
+            },
+            {
+                "name": "The primary particle statistical measure is reported by the nano toxicity study",
+                "variable": "primary particle statistical measure"
+            },
+            {
+                "name": "The primary particle size determination method is reported by the nano toxicity study",
+                "variable": "primary particle size determination method"
+            },
+            {
+                "name": "The primary particle size qualifier is reported by the nano toxicity study",
+                "variable": "primary particle size qualifier"
+            },
+            {
+                "name": "The primary particle surface charge is reported by the nano toxicity study",
+                "variable": "primary particle surface charge"
+            },
+            {
+                "name": "The primary particle synthesis protocol is reported by the nano toxicity study",
+                "variable": "primary particle synthesis protocol"
+            }
+        ],
+        "id": "88b52fa7b8",
+        "title": "Nano particle agglomeration-related metadata relevant for delivered dose (DD) assessment as a means to facilitate correct interpretation of in vitro bioassays and support data reuse."
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "faf3eea67a301b71aebf1649079be72c6ed0e155a837d8117719f6cb5068b58c",
+                "type": "DOI",
+                "URL": "https://doi.org/10.3109/17435391003775266"
+            },
+            "title": "Minimal analytical characterization of engineered nanomaterials needed for hazard assessment in biological matrices"
+        },
+        "maturity indicators": [
+            {
+                "name": "The agglomerate size is reported by the nano toxicity study",
+                "variable": "agglomerate size"
+            },
+            {
+                "name": "The aspect ratio is reported by the nano toxicity study",
+                "variable": "aspect ratio"
+            },
+            {
+                "name": "The chemical composition is reported by the nano toxicity study",
+                "variable": "chemical composition"
+            },
+            {
+                "name": "The purity is reported by the nano toxicity study",
+                "variable": "purity"
+            },
+            {
+                "name": "The size distribution is reported by the nano toxicity study",
+                "variable": "size distribution"
+            },
+            {
+                "name": "The solubility is reported by the nano toxicity study",
+                "variable": "solubility"
+            },
+            {
+                "name": "The surface area is reported by the nano toxicity study",
+                "variable": "surface area"
+            },
+            {
+                "name": "The surface charge is reported by the nano toxicity study",
+                "variable": "surface charge"
+            },
+            {
+                "name": "The thermal stability is reported by the nano toxicity study",
+                "variable": "thermal stability"
+            },
+            {
+                "name": "The UV stability is reported by the nano toxicity study",
+                "variable": "UV stability"
+            }
+        ],
+        "id": "faf3eea67a",
+        "title": "Minimal characteristics and metrics recommended for every field of research investigating the health impact of nanomaterials and metrics."
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "99c4a218fe0ef63bbf79734c283d79423c3c45970af1d561abb0b310ffd10cd9",
+                "type": "DOI",
+                "URL": "https://doi.org/10.1039/C9EN00448C"
+            },
+            "title": "Harmonizing Across Environmental Nanomaterial Testing Media for Increased Comparability of Nanomaterial Datasets"
+        },
+        "maturity indicators": [
+            {
+                "name": "The fluidity of the leaves (e.g. epicuticular wax) media (in air-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "leaves media fluidity"
+            },
+            {
+                "name": "The pH of the leaves (e.g. epicuticular wax) media (in air-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "leaves media pH"
+            },
+            {
+                "name": "The  biological molecules (proteins) inthe simulated surface contact media (in air-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "simulated surface contact media proteins"
+            },
+            {
+                "name": "The ionic strength of the simulated surface contact media (in air-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "simulated surface contact media ionic strength"
+            },
+            {
+                "name": "The pH of the simulated surface contact media (in air-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "simulated surface contact media pH"
+            },
+            {
+                "name": "The usage of enzymes or other additived with the artificial lysosomal fluid media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "artificial lysosomal fluid media additives"
+            },
+            {
+                "name": "The ionic strength of the artificial lysosomal fluid media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "artificial lysosomal fluid media ionic strength"
+            },
+            {
+                "name": "The pH of the artificial lysosomal fluid media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "artificial lysosomal fluid media pH"
+            },
+            {
+                "name": "The DOC (Dissolved Organic Carbon) concentration inthe aquatic organism culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "aquatic organism media DOC"
+            },
+            {
+                "name": "The ionic strength of the aquatic organism culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "aquatic organism media ionic strength"
+            },
+            {
+                "name": "The major anions of the aquatic organism culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "aquatic organism media major anions"
+            },
+            {
+                "name": "The major cations of the aquatic organism culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "aquatic organism media major cations"
+            },
+            {
+                "name": "The pH of the aquatic organism culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "aquatic organism media pH"
+            },
+            {
+                "name": "The ionic content of the mammalian culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "mammalian media ionic content"
+            },
+            {
+                "name": "The ionic strength of the mammalian culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "mammalian media ionic strength"
+            },
+            {
+                "name": "The pH of the mammalian culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "mammalian media pH"
+            },
+            {
+                "name": "The serum of the mammalian culture media (in liquid-surface exposure scenarios) status (heat activated or not) is reported by the nano toxicity study",
+                "variable": "mammalian media serum heat inactivated"
+            },
+            {
+                "name": "The serum percentage of the mammalian culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "mammalian media serum percentage"
+            },
+            {
+                "name": "The serum source of the mammalian culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "mammalian media serum source"
+            },
+            {
+                "name": "The ionic strength of the microbial culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "microbial media ionic strength"
+            },
+            {
+                "name": "The pH of the microbial media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "microbial media pH"
+            },
+            {
+                "name": "The ionic strength of the plant transport mimics media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "plant transport mimics media ionic strength"
+            },
+            {
+                "name": "The pH of the plant transport mimics media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "plant transport mimics media pH"
+            },
+            {
+                "name": "The water extractable elements (Si, Ca, Mg, Fe, Al, Mn) of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study.",
+                "variable": "rhizosomal system extractable elements"
+            },
+            {
+                "name": "The redox potential of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study.",
+                "variable": "rhizosomal system redox potential"
+            },
+            {
+                "name": "The soil pH of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "rhizosomal system soil pH"
+            },
+            {
+                "name": "The specific conductance of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study.",
+                "variable": "rhizosomal system specific conductance"
+            },
+            {
+                "name": "The texture of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study.",
+                "variable": "rhizosomal system texture"
+            },
+            {
+                "name": "The TOC (total organic carbon) of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study.",
+                "variable": "rhizosomal system TOC"
+            },
+            {
+                "name": "The usage of enzymes or other additived with the simulated digestive fluids media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "simulated digestive fluids media additives"
+            },
+            {
+                "name": "The ionic strength of the simulated digestive fluids media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "simulated digestive fluids media ionic strength"
+            },
+            {
+                "name": "The pH of the simulated digestive fluids media (in liquid-surface exposure scenarios) is reported by the nano toxicity study",
+                "variable": "simulated digestive fluids media pH"
+            }
+        ],
+        "id": "99c4a218fe",
+        "title": "Minimum set of parameters recommended for inter-study comparison of the fate and effects of nanomaterials in biological media."
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "324358ad68fcc5a7824b5477be3ba3a7341322d2cd188e6509349847437039b8",
+                "type": "DOI",
+                "URL": "https://doi.org/10.1016/j.nantod.2019.06.004"
+            },
+            "title": "Best practice in reporting corona studies: minimum information about Nanomaterial Biocorona Experiments (MINBE)"
+        },
+        "maturity indicators": [
+            {
+                "name": "The aggregation state information is reported by the nano toxicity study",
+                "variable": "aggregation state"
+            },
+            {
+                "name": "The collection approach information is reported by the nano toxicity study",
+                "variable": "collection approach"
+            },
+            {
+                "name": "The collection organism information is reported by the nano toxicity study",
+                "variable": "collection organisms"
+            },
+            {
+                "name": "The dosimetrics information is reported by the nano toxicity study",
+                "variable": "dosimetrics"
+            },
+            {
+                "name": "The processing information is reported by the nano toxicity study",
+                "variable": "processing"
+            },
+            {
+                "name": "The provenance information is reported by the nano toxicity study",
+                "variable": "provenance"
+            },
+            {
+                "name": "The replicates information is reported by the nano toxicity study",
+                "variable": "replicates"
+            },
+            {
+                "name": "The sample conditions information is reported by the nano toxicity study",
+                "variable": "sample conditions"
+            },
+            {
+                "name": "The storage information is reported by the nano toxicity study",
+                "variable": "storage"
+            },
+            {
+                "name": "The surface chemistry information is reported by the nano toxicity study",
+                "variable": "surface chemistry"
+            },
+            {
+                "name": "The synthesized properties information is reported by the nano toxicity study",
+                "variable": "synthesized properties"
+            },
+            {
+                "name": "The corona separation information is reported by the nano toxicity study",
+                "variable": "corona separation"
+            },
+            {
+                "name": "The protein digestion information is reported by the nano toxicity study",
+                "variable": "protein digestion"
+            },
+            {
+                "name": "The sample cleanup information is reported by the nano toxicity study",
+                "variable": "sample cleanup"
+            },
+            {
+                "name": "The fragmentation method information is reported by the nano toxicity study",
+                "variable": "fragmentation method"
+            },
+            {
+                "name": "The injection volume information is reported by the nano toxicity study",
+                "variable": "injection volume"
+            },
+            {
+                "name": "The LC column information is reported by the nano toxicity study",
+                "variable": "LC column"
+            },
+            {
+                "name": "The LC gradient information is reported by the nano toxicity study",
+                "variable": "LC gradient"
+            },
+            {
+                "name": "The LC platform information is reported by the nano toxicity study",
+                "variable": "LC platform"
+            },
+            {
+                "name": "The LC solvents information is reported by the nano toxicity study",
+                "variable": "LC solvents"
+            },
+            {
+                "name": "The MS/MS platform information is reported by the nano toxicity study",
+                "variable": "MS/MS platform"
+            },
+            {
+                "name": "The MS mass analyzer settings information is reported by the nano toxicity study",
+                "variable": "MS mass analyzer settings"
+            },
+            {
+                "name": "The MS source settings information is reported by the nano toxicity study",
+                "variable": "MS source settings"
+            },
+            {
+                "name": "The accession number is reported by the nano toxicity study",
+                "variable": "accession number"
+            },
+            {
+                "name": "The database information is reported by the nano toxicity study",
+                "variable": "database"
+            },
+            {
+                "name": "The protein identification confidence information is reported by the nano toxicity study",
+                "variable": "protein identification confidence"
+            },
+            {
+                "name": "The quantification information is reported by the nano toxicity study",
+                "variable": "quantification"
+            },
+            {
+                "name": "The validation information is reported by the nano toxicity study",
+                "variable": "validation"
+            }
+        ],
+        "id": "324358ad68",
+        "title": "Reporting standards for corona characterization"
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "1582738113760cdc93c642ce4d6997e30467d02b5ee283a4413f434daa90667a",
+                "type": "Website",
+                "URL": "https://unece.org/DAM/trans/danger/publi/ghs/ghs_rev07/English/01e_part1.pdf"
+            },
+            "title": "Globally Harmonized System of Classification and Labeling of Chemicals (GHS), UNECE"
+        },
+        "maturity indicators": [
+            {
+                "name": "The auto-ignition temperature is reported by the nano toxicity study",
+                "variable": "auto-ignition temperature"
+            },
+            {
+                "name": "The boiling point is reported by the nano toxicity study",
+                "variable": "boiling point"
+            },
+            {
+                "name": "The color is reported by the nano toxicity study",
+                "variable": "color"
+            },
+            {
+                "name": "The decomposition temperature is reported by the nano toxicity study",
+                "variable": "decomposition temperature"
+            },
+            {
+                "name": "The density is reported by the nano toxicity study",
+                "variable": "density"
+            },
+            {
+                "name": "The flammability is reported by the nano toxicity study",
+                "variable": "flammability"
+            },
+            {
+                "name": "The flammability limit (lower and upper explosion limit) is reported by the nano toxicity study",
+                "variable": "flammability limit"
+            },
+            {
+                "name": "The flash point is reported by the nano toxicity study",
+                "variable": "flash point"
+            },
+            {
+                "name": "The freezing point is reported by the nano toxicity study",
+                "variable": "freezing point"
+            },
+            {
+                "name": "The kinematic viscosity is reported by the nano toxicity study",
+                "variable": "kinematic viscosity"
+            },
+            {
+                "name": "The melting point is reported by the nano toxicity study",
+                "variable": "melting point"
+            },
+            {
+                "name": "The odor is reported by the nano toxicity study",
+                "variable": "odor"
+            },
+            {
+                "name": "The particle characteristics is reported by the nano toxicity study",
+                "variable": "particle characteristics"
+            },
+            {
+                "name": "The partition coefficient is reported by the nano toxicity study",
+                "variable": "partition coefficient"
+            },
+            {
+                "name": "The pH is reported by the nano toxicity study",
+                "variable": "pH"
+            },
+            {
+                "name": "The physical state is reported by the nano toxicity study",
+                "variable": "physical state"
+            },
+            {
+                "name": "The relative vapour density is reported by the nano toxicity study",
+                "variable": "relative vapour density"
+            },
+            {
+                "name": "The solubility is reported by the nano toxicity study",
+                "variable": "solubility"
+            },
+            {
+                "name": "The vapour pressure is reported by the nano toxicity study",
+                "variable": "vapour pressure"
+            }
+        ],
+        "id": "1582738113",
+        "title": "Minimum information for a safety data sheet (SDS) (section 9, nanomaterials physiochemical properties)"
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "3ce932c4f97897b7094c84547e240afbf695c89898fba83bf408cb88762c05b3",
+                "type": "DOI",
+                "URL": "http://dx.doi.org/10.2147/IJN.S40722"
+            },
+            "title": "The Nanomaterial Registry: facilitating the sharing and analysis of data in the diverse nanomaterial community"
+        },
+        "maturity indicators": [
+            {
+                "name": "The nanomaterial's agglomeration state is reported by the nano toxicity study",
+                "variable": "agglomeration state"
+            },
+            {
+                "name": "The nanomaterial's composition is reported by the nano toxicity study",
+                "variable": "composition"
+            },
+            {
+                "name": "The nanomaterial's purity is reported by the nano toxicity study",
+                "variable": "purity"
+            },
+            {
+                "name": "The nanomaterial's shape is reported by the nano toxicity study",
+                "variable": "shape"
+            },
+            {
+                "name": "The nanomaterial's size is reported by the nano toxicity study",
+                "variable": "size"
+            },
+            {
+                "name": "The nanomaterial's size distribution is reported by the nano toxicity study",
+                "variable": "size distribution"
+            },
+            {
+                "name": "The nanomaterial's solubility is reported by the nano toxicity study",
+                "variable": "solubility"
+            },
+            {
+                "name": "The nanomaterial's stability is reported by the nano toxicity study",
+                "variable": "stability"
+            },
+            {
+                "name": "The nanomaterial's surface area is reported by the nano toxicity study",
+                "variable": "surface area"
+            },
+            {
+                "name": "The nanomaterial's surface charge is reported by the nano toxicity study",
+                "variable": "surface charge"
+            },
+            {
+                "name": "The nanomaterial's surface chemistry is reported by the nano toxicity study",
+                "variable": "surface chemistry"
+            },
+            {
+                "name": "The nanomaterial's surface reactivity is reported by the nano toxicity study",
+                "variable": "surface reactivity"
+            }
+        ],
+        "id": "3ce932c4f9",
+        "title": "Descriptors of the Nanomaterial Registry minimal information about nanomaterials (MIAN)â\u20ac™s physicochemical characterization (PCC)"
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "7a4d616c6602ed527796691f2e5a46b064818cc978c376ff68e680b7cd3bc6b9",
+                "type": "Website",
+                "URL": "http://nanocalibrate.eu"
+            },
+            "title": "caLIBRAte nano risk governance D5.3 document on quality criteria for Data"
+        },
+        "maturity indicators": [
+            {
+                "name": "The cell type is reported by the nano toxicity study",
+                "variable": "cell type"
+            },
+            {
+                "name": "The culture type is reported by the nano toxicity study",
+                "variable": "culture type"
+            },
+            {
+                "name": "Genotyping/authenticity is reported by the nano toxicity study",
+                "variable": "genotyping"
+            },
+            {
+                "name": "The growth rate/doubling time is reported by the nano toxicity study",
+                "variable": "growth rate"
+            },
+            {
+                "name": "The morphological appearance is reported by the nano toxicity study",
+                "variable": "morphological appearance"
+            },
+            {
+                "name": "Mycoplasma testing is reported by the nano toxicity study",
+                "variable": "mycoplasma testing"
+            },
+            {
+                "name": "The passage number is reported by the nano toxicity study",
+                "variable": "passage number"
+            },
+            {
+                "name": "The test subject's age is reported by the nano toxicity study",
+                "variable": "test subject age"
+            },
+            {
+                "name": "The test subject's body weight is reported by the nano toxicity study",
+                "variable": "test subject body weight"
+            },
+            {
+                "name": "The test subject's housing and feed conditions are reported by the nano toxicity study",
+                "variable": "housing and feed conditions"
+            },
+            {
+                "name": "The test subject's sex is reported by the nano toxicity study",
+                "variable": "test subject sex"
+            },
+            {
+                "name": "The test subject's species is reported by the nano toxicity study",
+                "variable": "test subject species"
+            },
+            {
+                "name": "The test subject's strain is reported by the nano toxicity study",
+                "variable": "test subject strain"
+            },
+            {
+                "name": "The type of assay is reported by the nano toxicity study",
+                "variable": "assay"
+            },
+            {
+                "name": "The negative/positive controls are is reported by the nano toxicity study",
+                "variable": "controls"
+            },
+            {
+                "name": "The administered dose/concentration is reported by the nano toxicity study",
+                "variable": "dose"
+            },
+            {
+                "name": "The expose time is reported by the nano toxicity study",
+                "variable": "expose time"
+            },
+            {
+                "name": "The assessment of interference is reported by the nano toxicity study",
+                "variable": "assessment of interference"
+            },
+            {
+                "name": "The experimental measurements are is reported by the nano toxicity study",
+                "variable": "experimental measurements"
+            },
+            {
+                "name": "The number of treatment groups is reported by the nano toxicity study",
+                "variable": "number of treatment groups"
+            },
+            {
+                "name": "The number of test subjects is reported by the nano toxicity study",
+                "variable": "number of test subjects"
+            },
+            {
+                "name": "The route of administration is reported by the nano toxicity study",
+                "variable": "route of administration"
+            },
+            {
+                "name": "The toxicological endpoint is reported by the nano toxicity study",
+                "variable": "toxicological endpoint"
+            },
+            {
+                "name": "Information on method of suspension is reported by the nano toxicity study",
+                "variable": "method of suspension"
+            },
+            {
+                "name": "The nanoparticle source/origin is reported by the nano toxicity study",
+                "variable": "nanoparticle source"
+            },
+            {
+                "name": "The physicochemical characterization under biologically relevant conditions is reported by the nano toxicity study",
+                "variable": "physicochemical characterization"
+            },
+            {
+                "name": "The nanomaterial's agglomeration state is reported by the nano toxicity study",
+                "variable": "agglomeration state"
+            },
+            {
+                "name": "The nanomaterial's composition is reported by the nano toxicity study",
+                "variable": "composition"
+            },
+            {
+                "name": "The nanomaterial's crystallinity is reported by the nano toxicity study",
+                "variable": "crystallinity"
+            },
+            {
+                "name": "The nanomaterial's purity is reported by the nano toxicity study",
+                "variable": "purity"
+            },
+            {
+                "name": "The nanomaterial's shape is reported by the nano toxicity study",
+                "variable": "shape"
+            },
+            {
+                "name": "The nanomaterial's size is reported by the nano toxicity study",
+                "variable": "size"
+            },
+            {
+                "name": "The nanomaterial's size distribution is reported by the nano toxicity study",
+                "variable": "size distribution"
+            },
+            {
+                "name": "The nanomaterial's stability is reported by the nano toxicity study",
+                "variable": "stability"
+            },
+            {
+                "name": "The nanomaterial's surface area is reported by the nano toxicity study",
+                "variable": "surface area"
+            },
+            {
+                "name": "The nanomaterial's surface charge is reported by the nano toxicity study",
+                "variable": "surface charge"
+            },
+            {
+                "name": "The nanomaterial's surface chemistry is reported by the nano toxicity study",
+                "variable": "surface chemistry"
+            }
+        ],
+        "id": "7a4d616c66",
+        "title": "caLIBRAte nano risk governance D5.3 document on quality criteria for Data"
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "57299b68d49654e043836acfbacaeff76900994227c8dcba53f4f04252f30978",
+                "type": "Website",
+                "URL": "https://riskgone.eu"
+            },
+            "title": "RiskGONE toxicity risk assessment quality measures"
+        },
+        "maturity indicators": [
+            {
+                "name": "The administration method is reported by the nano toxicity study (in vitro)",
+                "variable": "administration method in-vitro"
+            },
+            {
+                "name": "The determination methods of the study endpoints are reported by the nano toxicity study (in vitro)",
+                "variable": "determination methods in-vitro"
+            },
+            {
+                "name": "The dose/concentration is reported by the nano toxicity study (in vitro)",
+                "variable": "dose in-vitro"
+            },
+            {
+                "name": "The results of the study endpoints are all reported by the nano toxicity study (in vitro)",
+                "variable": "endpoint results in-vitro"
+            },
+            {
+                "name": "The exposure duration/time-points of observation are is reported by the nano toxicity study (in vitro)",
+                "variable": "exposure duration in-vitro"
+            },
+            {
+                "name": "The negative controls are reported by the nano toxicity study (in vitro)",
+                "variable": "negative controls in-vitro"
+            },
+            {
+                "name": "The number of replicates is reported by the nano toxicity study (in vitro)",
+                "variable": "number of replicates"
+            },
+            {
+                "name": "The positive controls are reported by the nano toxicity study (in vitro)",
+                "variable": "positive controls in-vitro"
+            },
+            {
+                "name": "The statistical methods for data analysis are reported by the nano toxicity study (in vitro)",
+                "variable": "statistical methods in-vitro"
+            },
+            {
+                "name": "The test substance physiochemical characterization is reported by the nano toxicity study (in vitro)",
+                "variable": "test substance physiochemical characterization in-vitro"
+            },
+            {
+                "name": "The test substance identity is reported by the nano toxicity study (in vitro)",
+                "variable": "test substance identity in-vitro"
+            },
+            {
+                "name": "The test substance purity is reported by the nano toxicity study (in vitro)",
+                "variable": "test substance purity in-vitro"
+            },
+            {
+                "name": "The test substance source is reported by the nano toxicity study (in vitro)",
+                "variable": "test substance source"
+            },
+            {
+                "name": "The test system description is reported by the nano toxicity study (in vitro)",
+                "variable": "test system description"
+            },
+            {
+                "name": "The test system properties and conditions of cultivation and maintenance are reported by the nano toxicity study (in vitro)",
+                "variable": "test system properties"
+            },
+            {
+                "name": "The test system source is reported by the nano toxicity study (in vitro)",
+                "variable": "test system source"
+            },
+            {
+                "name": "The administration method is reported by the nano toxicity study (in vivo)",
+                "variable": "administration method in-vivo"
+            },
+            {
+                "name": "The determination methods of the study endpoints are reported by the nano toxicity study (in vivo)",
+                "variable": "determination methods in-vivo"
+            },
+            {
+                "name": "The dose/concentration is reported by the nano toxicity study (in vivo)",
+                "variable": "dose in-vivo"
+            },
+            {
+                "name": "The results of the study endpoints are all reported by the nano toxicity study (in vivo)",
+                "variable": "endpoint results in-vivo"
+            },
+            {
+                "name": "The exposure duration/time-points of observation are is reported by the nano toxicity study (in vivo)",
+                "variable": "exposure duration in-vivo"
+            },
+            {
+                "name": "The negative controls are reported by the nano toxicity study (in vivo)",
+                "variable": "negative controls in-vivo"
+            },
+            {
+                "name": "The number of subjects is reported by the nano toxicity study (in vivo)",
+                "variable": "number of subjects"
+            },
+            {
+                "name": "The organism age is reported by the nano toxicity study (in vivo)",
+                "variable": "organism age"
+            },
+            {
+                "name": "The organism sex is reported by the nano toxicity study (in vivo)",
+                "variable": "organism sex"
+            },
+            {
+                "name": "The organism strain is reported by the nano toxicity study (in vivo)",
+                "variable": "organism strain"
+            },
+            {
+                "name": "The organism body weight is reported by the nano toxicity study (in vivo)",
+                "variable": "organism body weight"
+            },
+            {
+                "name": "The positive controls are reported by the nano toxicity study (in vivo)",
+                "variable": "positive controls"
+            },
+            {
+                "name": "The species is reported by the nano toxicity study (in vivo)",
+                "variable": "species"
+            },
+            {
+                "name": "The statistical methods for data analysis are reported by the nano toxicity study (in vivo)",
+                "variable": "statistical methods in-vivo"
+            },
+            {
+                "name": "The test substance physiochemical characterization is reported by the nano toxicity study (in vivo)",
+                "variable": "test substance physiochemical characterization in-vivo"
+            },
+            {
+                "name": "The test substance identity is reported by the nano toxicity study (in vivo)",
+                "variable": "test substance identity in-vivo"
+            },
+            {
+                "name": "The test substance purity is reported by the nano toxicity study (in vivo)",
+                "variable": "test substance purity in-vivo"
+            },
+            {
+                "name": "The test substance source is reported by the nano toxicity study (in vivo)",
+                "variable": "test substance source in-vivo"
+            }
+        ],
+        "id": "57299b68d4",
+        "title": "RiskGONE toxicity risk assessment quality measures (in vivo/in vitro)"
+    },
+    {
+        "reference": {
+            "reference id": {
+                "SHA-256": "1fb3ef13d0c4b990a4815291225d02d3b87bb299393744ecdc43cd1d37da62a5",
+                "type": "Website",
+                "URL": "https://www.iso.org/standard/52334.html"
+            },
+            "title": "Nanotechnologies â\u20ac\u201d Guidance on physio-chemical characterization of engineered Nano scale materials for toxicological assessment"
+        },
+        "maturity indicators": [
+            {
+                "name": "The agglomeration state is reported by the nano toxicity study",
+                "variable": "agglomeration state"
+            },
+            {
+                "name": "The composition is reported by the nano toxicity study",
+                "variable": "composition"
+            },
+            {
+                "name": "The dispersibility is reported by the nano toxicity study",
+                "variable": "dispersibility"
+            },
+            {
+                "name": "The particle size is reported by the nano toxicity study",
+                "variable": "particle size"
+            },
+            {
+                "name": "The shape is reported by the nano toxicity study",
+                "variable": "shape"
+            },
+            {
+                "name": "The solubility is reported by the nano toxicity study",
+                "variable": "solubility"
+            },
+            {
+                "name": "The surface area is reported by the nano toxicity study",
+                "variable": "surface area"
+            },
+            {
+                "name": "The surface charge is reported by the nano toxicity study",
+                "variable": "surface charge"
+            },
+            {
+                "name": "The surface chemistry is reported by the nano toxicity study",
+                "variable": "surface chemistry"
+            }
+        ],
+        "id": "1fb3ef13d0",
+        "title": "Physio-chemical characterization of engineered Nano scale materials for toxicological assessment (ISO/TR 13014:2012)"
+    }
+]}

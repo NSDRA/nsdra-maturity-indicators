@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-02
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-57299b68d4-IN_VITRO_POSITIVE_CONTROLS](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-57299b68d4-IN_VITRO_POSITIVE_CONTROLS)
@@ -38,15 +38,15 @@ This is one of the quality measure that need to be reported by toxicity risk ass
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
-| Field Name                | Alternative terms                         |
-| ------------------------- | ----------------------------------------- |
-| positive controls         | positive-controls,<br>positive_controls   |
+| Field Name                   | Alternative terms                                           |
+| ---------------------------- | ----------------------------------------------------------- |
+| positive controls in-vitro   | positive-controls-in-vitro,<br>positive_controls_in-vitro   |
 
 ### How is the measurement executed?
 The positive controls should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.
 
 ### What is/are considered valid result(s)?
-The presence of the field "positive controls" in the JSON-LD metadata means the measurement is reported which is the valid result.
+The presence of the field "positive controls in-vitro" in the JSON-LD metadata means the measurement is reported which is the valid result.
 
 ### For which digital resource(s) is this relevant? (or 'all')
 For nano toxicity related datasets.  
@@ -71,7 +71,7 @@ For nano toxicity related datasets.
  	"variableMeasured": [
  		{
  			"@type": "schema:PropertyValue",
- 			"name": "positive controls"
+ 			"name": "positive controls in-vitro"
  		}
  	]
  }

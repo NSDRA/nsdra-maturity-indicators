@@ -43,7 +43,7 @@ sub:assertion {
  	\"variableMeasured\": [
  		{
  			\"@type\": \"schema:PropertyValue\",
- 			\"name\": \"test substance purity\"
+ 			\"name\": \"test substance purity in-vitro\"
  		}
  	]
  }""" .
@@ -53,10 +53,10 @@ sub:assertion {
     fairmi:MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_PURITY fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_PURITY fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
-| Field Name                | Alternative terms                                |
-| ------------------------- | ------------------------------------------------ |
-| test substance purity     | test-substance-purity,<br>test_substance_purity  |""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_PURITY fairmi:validation """The presence of the field \"test substance purity\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| Field Name                        | Alternative terms                                                  |
+| --------------------------------- | ------------------------------------------------------------------ |
+| test substance purity in-vitro    | test-substance-purity-in-vitro,<br>test_substance_purity_in_vitro  |""" .
+    fairmi:MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_PURITY fairmi:validation """The presence of the field \"test substance purity in-vitro\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
 }
 
 sub:provenance {
@@ -73,7 +73,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-03-02"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

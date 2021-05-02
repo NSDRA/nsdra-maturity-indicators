@@ -43,12 +43,12 @@ sub:assertion {
  	\"variableMeasured\": [
  		{
  			\"@type\": \"schema:PropertyValue\",
- 			\"name\": \"composition\"
+ 			\"name\": \"agglomeration state\"
  		}
  	]
  }""" .
     fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:measuring """If the nanomaterial's agglomeration state is reported by the nano toxicity study data or not.""" .
-    fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:procedure """The nanomaterial's composition should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
+    fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:procedure """The nanomaterial's agglomeration state should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
     fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:rationale """The extent to which a group of particles, affected by attractive forces, forms groups or clusters.""" .
     fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
@@ -56,7 +56,7 @@ sub:assertion {
 | Field Name          | Alternative terms                                                                                                   |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | agglomeration state | agglomeration-state,<br>agglomeration_state,<br>AgglomerationState,<br>aggregation,<br>Aggregation,<br>AGGREGATION  |""" .
-    fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:validation """The presence of the field \"composition\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+    fairmi:MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE fairmi:validation """The presence of the field \"agglomeration state\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
 }
 
 sub:provenance {
@@ -73,7 +73,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-02-24"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

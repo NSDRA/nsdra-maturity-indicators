@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-02
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_SOURCE](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_SOURCE)
@@ -38,9 +38,9 @@ This is one of the quality measure that need to be reported by toxicity risk ass
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
-| Field Name                | Alternative terms                                |
-| ------------------------- | ------------------------------------------------ |
-| test substance source     | test-substance-source,<br>test_substance_source  |
+| Field Name                       | Alternative terms                                                  |
+| -------------------------------- | ------------------------------------------------------------------ |
+| test substance source in-vitro   | test-substance-source-in-vitro,<br>test_substance_source_in_vitro  |
 
 ### How is the measurement executed?
 The test substance source should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.
