@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-17
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-324358ad68-IV-PROTEIN_IDENT_CONFIDENCE](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-324358ad68-IV-PROTEIN_IDENT_CONFIDENCE)
@@ -35,11 +35,11 @@ If the protein identification confidence information is reported by the nano tox
 ### Why should we measure it?
 Protein identification confidence inforamtion is important to report for corona characterization and
 to maximize the ability cross-comparison with other reported studies. Information to report:
-Ã¢Â€Â¢ % Coverage: The percentage of the protein sequence covered.
-Ã¢Â€Â¢ Number of peptides: Total number of peptides detected for each protein, ideally 2 or more peptides.
-Ã¢Â€Â¢ Number of unique peptides: Number of peptide sequences that are unique to the identified protein.
-Ã¢Â€Â¢ Missed cleavages: Number of missed cleavages in the protein or peptide sequence.
-Ã¢Â€Â¢ Protein probabilities and scores: Calculated probabilities or scores to give a sense of confidence in a protein identification.
+â?¢ % Coverage: The percentage of the protein sequence covered.
+â?¢ Number of peptides: Total number of peptides detected for each protein, ideally 2 or more peptides.
+â?¢ Number of unique peptides: Number of peptide sequences that are unique to the identified protein.
+â?¢ Missed cleavages: Number of missed cleavages in the protein or peptide sequence.
+â?¢ Protein probabilities and scores: Calculated probabilities or scores to give a sense of confidence in a protein identification.
 
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 

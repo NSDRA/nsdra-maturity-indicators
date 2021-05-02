@@ -49,7 +49,7 @@ sub:assertion {
  }""" .
     fairmi:MI-R1.3-3ce932c4f9-PURITY fairmi:measuring """If the nanomaterial's purity is reported by the nano toxicity study data or not.""" .
     fairmi:MI-R1.3-3ce932c4f9-PURITY fairmi:procedure """The nanomaterial's purity should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-3ce932c4f9-PURITY fairmi:rationale """Amount of the intended substance within a manufactured material â also includes 
+    fairmi:MI-R1.3-3ce932c4f9-PURITY fairmi:rationale """Amount of the intended substance within a manufactured material �?? also includes 
 identity and amount of any contaminants.""" .
     fairmi:MI-R1.3-3ce932c4f9-PURITY fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-3ce932c4f9-PURITY fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
@@ -74,7 +74,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-02-24"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-15
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS)
@@ -33,7 +33,7 @@ R1.3
 If the major cations of the aquatic organism culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study data or not.
 
 ### Why should we measure it?
-Hardness â needs to be suitable for the organism being tested, affects NM stability and size distribution.
+Hardness �?? needs to be suitable for the organism being tested, affects NM stability and size distribution.
 
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 

@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-18
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-1fb3ef13d0-PCHEM-SOLUBILITY](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-1fb3ef13d0-PCHEM-SOLUBILITY)
@@ -23,7 +23,7 @@ This MI is to indicate if "solubility" is reported by the nano toxicity study da
 ### Maturity Indicator Name:  The solubility is reported by the nano toxicity study
 
 This maturity indicator is extracted from the following paper 
-**Title:** Nanotechnologies â Guidance on physio-chemical characterization of engineered Nano scale materials for toxicological assessment
+**Title:** Nanotechnologies �?? Guidance on physio-chemical characterization of engineered Nano scale materials for toxicological assessment
 **REF:** ISO/TR13014
 
 ### To which principle does it apply?  

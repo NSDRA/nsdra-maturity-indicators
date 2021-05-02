@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-15
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL)
@@ -33,7 +33,7 @@ R1.3
 If the redox potential of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study data or not.
 
 ### Why should we measure it?
-Redox potential is a master variable for speciation, indicator of microbial activity, controls extent of dissolution of redox-sensitive NPs (Ag, Fe, Al, Ã¢Â€Â¦), especially in sludges.
+Redox potential is a master variable for speciation, indicator of microbial activity, controls extent of dissolution of redox-sensitive NPs (Ag, Fe, Al, â?¦), especially in sludges.
 
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 

@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-24
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-3ce932c4f9-SURFACE_AREA](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-3ce932c4f9-SURFACE_AREA)
@@ -35,7 +35,7 @@ If the nanomaterial's surface area is reported by the nano toxicity study data o
 ### Why should we measure it?
 The quantity of accessible surface of a nanomaterial expressed as a mass-specific surface area 
 or as a volume-specific surface area where the total area quantity has been normalized either to 
-the sampleâs mass or to a volume.
+the sample�??s mass or to a volume.
 
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 

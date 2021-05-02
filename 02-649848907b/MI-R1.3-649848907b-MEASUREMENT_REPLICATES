@@ -49,8 +49,8 @@ sub:assertion {
  }""" .
     fairmi:MI-R1.3-649848907b-MEASUREMENT_REPLICATES fairmi:measuring """If the total number of replicate measurements is reported by the nano toxicity study data or not.""" .
     fairmi:MI-R1.3-649848907b-MEASUREMENT_REPLICATES fairmi:procedure """The \"number of replicates\" variable should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-649848907b-MEASUREMENT_REPLICATES fairmi:rationale """The reliability of the zeta-potential measurement is at best Â±2 mV or
-about Â±10% of the measured value, so making multiple measurements
+    fairmi:MI-R1.3-649848907b-MEASUREMENT_REPLICATES fairmi:rationale """The reliability of the zeta-potential measurement is at best ±2 mV or
+about ±10% of the measured value, so making multiple measurements
 (>6) and observing the trends in the measured zeta-potential values
 provides insights into the quality and reproducibility of the data. Taking
 replicate measurements and regularly inspecting electrodes for
@@ -78,7 +78,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-02-12"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

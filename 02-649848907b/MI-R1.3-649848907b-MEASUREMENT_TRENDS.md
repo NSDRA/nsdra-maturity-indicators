@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-12
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-649848907b-MEASUREMENT_TRENDS](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-649848907b-MEASUREMENT_TRENDS)
@@ -37,8 +37,8 @@ If the the observed trends in replicate measurements
 is reported by the nano toxicity study data or not.
 
 ### Why should we measure it?
-The reliability of the zeta-potential measurement is at best Â±2 mV or
-about Â±10% of the measured value, so making multiple measurements
+The reliability of the zeta-potential measurement is at best ±2 mV or
+about ±10% of the measured value, so making multiple measurements
 (>6) and observing the trends in the measured zeta-potential values
 provides insights into the quality and reproducibility of the data. Taking
 replicate measurements and regularly inspecting electrodes for

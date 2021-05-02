@@ -51,7 +51,7 @@ sub:assertion {
     fairmi:MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA fairmi:procedure """The surface area should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
     fairmi:MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA fairmi:rationale """Surface area is a fundamental measurement being made,
 and it is linked to hazaradous effects to the cell. Different measurement methods investigate different
-submetrics, e.g., BET-surface, Fuchsâ surface, visual surface, mobility diameter surface.""" .
+submetrics, e.g., BET-surface, Fuchs�?? surface, visual surface, mobility diameter surface.""" .
     fairmi:MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
@@ -75,7 +75,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-03-16"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

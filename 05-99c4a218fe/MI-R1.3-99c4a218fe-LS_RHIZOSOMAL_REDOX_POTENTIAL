@@ -49,7 +49,7 @@ sub:assertion {
  }""" .
     fairmi:MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL fairmi:measuring """If the redox potential of the rhizosomal system (in liquid-surface exposure scenarios) is reported by the nano toxicity study data or not.""" .
     fairmi:MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL fairmi:procedure """The \"rhizosomal system redox potential\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL fairmi:rationale """Redox potential is a master variable for speciation, indicator of microbial activity, controls extent of dissolution of redox-sensitive NPs (Ag, Fe, Al, Ã¢Â€Â¦), especially in sludges.""" .
+    fairmi:MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL fairmi:rationale """Redox potential is a master variable for speciation, indicator of microbial activity, controls extent of dissolution of redox-sensitive NPs (Ag, Fe, Al, â?¦), especially in sludges.""" .
     fairmi:MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-99c4a218fe-LS_RHIZOSOMAL_REDOX_POTENTIAL fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
@@ -73,7 +73,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-02-15"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

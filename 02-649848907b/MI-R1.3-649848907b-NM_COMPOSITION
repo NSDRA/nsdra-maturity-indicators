@@ -50,7 +50,7 @@ sub:assertion {
     fairmi:MI-R1.3-649848907b-NM_COMPOSITION fairmi:measuring """If the composition is reported by the nano toxicity study data or not.""" .
     fairmi:MI-R1.3-649848907b-NM_COMPOSITION fairmi:procedure """The composition should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
     fairmi:MI-R1.3-649848907b-NM_COMPOSITION fairmi:rationale """The appropriate model for calculating the zeta-potential depends on
-particle size (through Îºa) and potentially on shape for the smallest particles.
+particle size (through κa) and potentially on shape for the smallest particles.
 The presence of a macromolecular coating on the particle, or a
 shell, or any charged (small molecule) ligands can affect the electrophoretic
 mobility and hence zeta-potential.""" .
@@ -77,7 +77,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-02-12"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-02
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-7a4d616c66-PCHEM_SURFACE_AREA](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-7a4d616c66-PCHEM_SURFACE_AREA)
@@ -27,7 +27,7 @@ This maturity indicator is extracted from the following paper
 **Reference Website:** http://nanocalibrate.eu
 
 Surface area: the quantity of accessible surface of a nanomaterial expressed as a mass-specific surface area or as 
-a volume-specific surface area where the total area quantity has been normalized either to the sampleâs mass or to a volume. (e.g. BET surface area).
+a volume-specific surface area where the total area quantity has been normalized either to the sample�??s mass or to a volume. (e.g. BET surface area).
 
 ### To which principle does it apply?  
 R1.3

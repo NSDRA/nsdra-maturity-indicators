@@ -17,3 +17,13 @@ Each list of maturity indicators is identified with 10-characters string which i
 
 ### Maturity indicators in this list:
 
+1. The purity is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_PURITY.md)
+1. The thermal stability is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY.md)
+1. The chemical composition is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_CHEMICAL_COMPOSITION.md)
+1. The size distribution is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_SIZE_DISTRIBUTION.md)
+1. The agglomerate size is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_AGGLOMERATE_SIZE.md)
+1. The solubility is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_SOLUBILITY.md)
+1. The surface charge is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_SURFACE_CHARGE.md)
+1. The UV stability is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_UV_STABILITY.md)
+1. The aspect ratio is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_ASPECT_RATIO.md)
+1. The surface area is reported by the nano toxicity study [link](https://github.com/ammar257ammar/NanoMaturityIndicators/blob/main/04-faf3eea67a/MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA.md)

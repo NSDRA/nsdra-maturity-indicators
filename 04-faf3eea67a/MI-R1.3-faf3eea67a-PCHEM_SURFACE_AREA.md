@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-16
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA)
@@ -35,7 +35,7 @@ If the surface area is reported by the nano toxicity study data or not.
 ### Why should we measure it?
 Surface area is a fundamental measurement being made,
 and it is linked to hazaradous effects to the cell. Different measurement methods investigate different
-submetrics, e.g., BET-surface, Fuchsâ surface, visual surface, mobility diameter surface.
+submetrics, e.g., BET-surface, Fuchs�?? surface, visual surface, mobility diameter surface.
 
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 

@@ -56,7 +56,7 @@ the NM surface to the amount of proteins present can have an important role in t
 available results in thicker coronas of the same composition, while for others quite different coronas occur at different surface area: FBS ratios. 
 Increasing the amount of extracellular proteins (serum) to 100 % rather than the usual 10 % dramatically reduced the uptake and the toxicity observed, 
 with no change in the effective size or stability of the NM dispersions. So there is potentially a case to be made to move to high 
-serum concentrations as they might be more representative of in vivo environments, and thus also facilitate improved in vitro â in vivo correlations.""" .
+serum concentrations as they might be more representative of in vivo environments, and thus also facilitate improved in vitro �?? in vivo correlations.""" .
     fairmi:MI-R1.3-99c4a218fe-LS_MAM_MEDIA_SERUM_PERCENTAGE fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-99c4a218fe-LS_MAM_MEDIA_SERUM_PERCENTAGE fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
@@ -80,7 +80,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-02-15"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

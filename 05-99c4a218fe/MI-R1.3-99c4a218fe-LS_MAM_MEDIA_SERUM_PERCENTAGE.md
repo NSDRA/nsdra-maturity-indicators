@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-15
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-99c4a218fe-LS_MAM_MEDIA_SERUM_PERCENTAGE](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-99c4a218fe-LS_MAM_MEDIA_SERUM_PERCENTAGE)
@@ -40,7 +40,7 @@ the NM surface to the amount of proteins present can have an important role in t
 available results in thicker coronas of the same composition, while for others quite different coronas occur at different surface area: FBS ratios. 
 Increasing the amount of extracellular proteins (serum) to 100 % rather than the usual 10 % dramatically reduced the uptake and the toxicity observed, 
 with no change in the effective size or stability of the NM dispersions. So there is potentially a case to be made to move to high 
-serum concentrations as they might be more representative of in vivo environments, and thus also facilitate improved in vitro â in vivo correlations.
+serum concentrations as they might be more representative of in vivo environments, and thus also facilitate improved in vitro �?? in vivo correlations.
 
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 

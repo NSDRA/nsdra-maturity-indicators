@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-12
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-649848907b-NM_SURFACE_FUNCTIONALIZATION](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-649848907b-NM_SURFACE_FUNCTIONALIZATION)
@@ -34,7 +34,7 @@ If the surface functionalization is reported by the nano toxicity study data or 
 
 ### Why should we measure it?
 The appropriate model for calculating the zeta-potential depends on
-particle size (through Îºa) and potentially on shape for the smallest particles.
+particle size (through κa) and potentially on shape for the smallest particles.
 The presence of a macromolecular coating on the particle, or a
 shell, or any charged (small molecule) ligands can affect the electrophoretic
 mobility and hence zeta-potential.

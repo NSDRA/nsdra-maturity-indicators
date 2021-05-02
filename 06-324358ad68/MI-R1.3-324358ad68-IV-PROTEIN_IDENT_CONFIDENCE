@@ -51,11 +51,11 @@ sub:assertion {
     fairmi:MI-R1.3-324358ad68-IV-PROTEIN_IDENT_CONFIDENCE fairmi:procedure """The \"protein identification confidence\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
     fairmi:MI-R1.3-324358ad68-IV-PROTEIN_IDENT_CONFIDENCE fairmi:rationale """Protein identification confidence inforamtion is important to report for corona characterization and
 to maximize the ability cross-comparison with other reported studies. Information to report:
-Ã¢Â€Â¢ % Coverage: The percentage of the protein sequence covered.
-Ã¢Â€Â¢ Number of peptides: Total number of peptides detected for each protein, ideally 2 or more peptides.
-Ã¢Â€Â¢ Number of unique peptides: Number of peptide sequences that are unique to the identified protein.
-Ã¢Â€Â¢ Missed cleavages: Number of missed cleavages in the protein or peptide sequence.
-Ã¢Â€Â¢ Protein probabilities and scores: Calculated probabilities or scores to give a sense of confidence in a protein identification.""" .
+â?¢ % Coverage: The percentage of the protein sequence covered.
+â?¢ Number of peptides: Total number of peptides detected for each protein, ideally 2 or more peptides.
+â?¢ Number of unique peptides: Number of peptide sequences that are unique to the identified protein.
+â?¢ Missed cleavages: Number of missed cleavages in the protein or peptide sequence.
+â?¢ Protein probabilities and scores: Calculated probabilities or scores to give a sense of confidence in a protein identification.""" .
     fairmi:MI-R1.3-324358ad68-IV-PROTEIN_IDENT_CONFIDENCE fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-324358ad68-IV-PROTEIN_IDENT_CONFIDENCE fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
@@ -79,7 +79,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-03-17"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

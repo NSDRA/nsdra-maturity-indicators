@@ -49,7 +49,7 @@ sub:assertion {
  }""" .
     fairmi:MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS fairmi:measuring """If the major cations of the aquatic organism culture media (in liquid-surface exposure scenarios) is reported by the nano toxicity study data or not.""" .
     fairmi:MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS fairmi:procedure """The \"aquatic organism media major cations\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS fairmi:rationale """Hardness â needs to be suitable for the organism being tested, affects NM stability and size distribution.""" .
+    fairmi:MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS fairmi:rationale """Hardness �?? needs to be suitable for the organism being tested, affects NM stability and size distribution.""" .
     fairmi:MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS fairmi:relevance """For nano toxicity related datasets. """ .
     fairmi:MI-R1.3-99c4a218fe-LS_AQUA_MEDIA_MAJOR_CATIONS fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
@@ -73,7 +73,7 @@ sub:pubinfo {
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
   this: dcterms:created "2021-02-15"^^xsd:date .
-  this: dcterms:modified "2021-05-02"^^xsd:date .
+  this: dcterms:modified "2021-05-03"^^xsd:date .
   this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
   this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
   this: pav:authoredBy orcid:0000-0002-8399-8990 .

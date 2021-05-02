@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-18
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-88b52fa7b8-PARTICLE_SIZE_MEASURE](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-88b52fa7b8-PARTICLE_SIZE_MEASURE)
@@ -34,7 +34,7 @@ If the primary particle statistical measure is reported by the nano toxicity stu
 
 ### Why should we measure it?
 This is one of the nano particle's (NP) agglomeration-related metadata relevant for delivered dose (DD)
-assessment as a means to facilitate correct interpretation of in vitro bioassays and support data reuse (case study value: Mean Â± Stdev).
+assessment as a means to facilitate correct interpretation of in vitro bioassays and support data reuse (case study value: Mean ± Stdev).
 
 ### What must be provided for the measurement?
 If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 

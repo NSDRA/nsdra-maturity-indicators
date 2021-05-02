@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-24
-#### Last Edit: 2021-05-02
+#### Last Edit: 2021-05-03
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-3ce932c4f9-PURITY](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-3ce932c4f9-PURITY)
@@ -33,7 +33,7 @@ R1.3
 If the nanomaterial's purity is reported by the nano toxicity study data or not.
 
 ### Why should we measure it?
-Amount of the intended substance within a manufactured material â also includes 
+Amount of the intended substance within a manufactured material �?? also includes 
 identity and amount of any contaminants.
 
 ### What must be provided for the measurement?
