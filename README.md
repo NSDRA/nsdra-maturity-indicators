@@ -6,3 +6,4 @@ This repository aims at providing maturity indicators (MI) to assess the FAIRnes
 The Maturity indicators follow the template provided by the "FAIR Maturity Testing and Evaluation" initiative by Mark Wilkinson [https://github.com/FAIRMetrics](https://github.com/FAIRMetrics). 
 
 The template used is available in this repository folder: [https://github.com/FAIRMetrics/Metrics/tree/master/MaturityIndicators](https://github.com/FAIRMetrics/Metrics/tree/master/MaturityIndicators)
+

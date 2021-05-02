@@ -4,7 +4,7 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-02-15
-#### Last Edit: 2021-03-01
+#### Last Edit: 2021-05-02
 #### Accepted: pending
 
 ### Maturity Indicator Identifier: [MI-R1.3-99c4a218fe-LS_MICROBIAL_MEDIA_PH](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-99c4a218fe-LS_MICROBIAL_MEDIA_PH)
@@ -62,7 +62,7 @@ For nano toxicity related datasets.
  		"schema": "https://schema.org/",
  		"citation": "schema:citation",
  		"name": "schema:name",
- 		"url": "schema:name",
+ 		"url": "schema:url",
  		"variableMeasured": "schema:variableMeasured",
  		"unitText": "schema:unitText"
  	},
