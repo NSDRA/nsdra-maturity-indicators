@@ -1,0 +1,56 @@
+TITLE=MI-R1.3-57299b68d4-IN_VIVO_ORGANISM_STRAIN
+AUTHOR1_NAME=Ammar Ammar
+AUTHOR1_ORCID=0000-0002-8399-8990
+PUBLICATION_DATE=2021-03-02
+LAST_EDIT=2021-02-12
+ACCEPTED=pending
+IDENTIFIER=MI-R1.3-57299b68d4-IN_VIVO_ORGANISM_STRAIN
+IDENTIFIER_DESC=This maturity indicator falls under the FAIR principle R1.3:\n\
+(meta)data meet domain-relevant community standards\n\
+\n\
+The ID of this MI is composed of the following segments (separated by hyphen):\n\
+1. Acronym for "Maturity Indicator"\n\
+1. The FAIR principle this maturity indicator belongs to\n\
+1. The first 10 characters truncated from the SHA-256 hash of the primary reference DOI of this maturity indicator.\n\
+1. A short name to distinguish the maturity indicator definition file\n\
+\n\
+This MI is to indicate if the organism strain is reported by the nano toxicity study data or not.
+NAME=The organism strain is reported by the nano toxicity study (in vivo)
+NAME_DESC= This maturity indicator is extracted from the following paper \n\
+**Title:** RiskGONE toxicity risk assessment quality measures\n\
+**Reference Website:** https://riskgone.eu
+WHICH_PRINCIPLE=R1.3
+WHAT_MEASURED=If the organism strain is reported by the nano toxicity study data or not.
+WHY_MEASURED=This is one of the quality measure that need to be reported by toxicity risk assessment experiments as decided in the RiskGONE EU project.
+WHAT_MUST_PROVIDED=If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: \n\
+\n\
+| Field Name                | Alternative terms                        |\n\
+| ------------------------- | ---------------------------------------- |\n\
+| organism strain           | organism-strain,<br>organism_strain      |
+HOW_MEASUREMENT_EXECUTED=The organism strain should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.
+WHAT_CONSIDERED_VALID_RESULTS=The presence of the field "organism strain" in the JSON-LD metadata means the measurement is reported which is the valid result.
+FOR_WHICH_DIGITAL_RESOURCE=For nano toxicity related datasets. 
+GOOD_PRACTICE_EXAMPLE=\
+{\n \
+\t"@context": {\n \
+\t\t"bs": "https://bioschemas.org/",\n \
+\t\t"schema": "https://schema.org/",\n \
+\t\t"citation": "schema:citation",\n \
+\t\t"name": "schema:name",\n \
+\t\t"url": "schema:url",\n \
+\t\t"variableMeasured": "schema:variableMeasured",\n \
+\t\t"unitText": "schema:unitText"\n \
+\t},\n \
+\t"@type": "schema:Dataset",\n \
+\t"name": "Dataset title",\n \
+\t"@id": "Dataset DOI",\n \
+\t"url": "Dataset URL",\n \
+\t"citation": "Dataset Citation/Publication",\n \
+\t"variableMeasured": [\n \
+\t\t{\n \
+\t\t\t"@type": "schema:PropertyValue",\n \
+\t\t\t"name": "organism strain"\n \
+\t\t}\n \
+\t]\n \
+}
+COMMENTS=
