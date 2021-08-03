@@ -1,10 +1,10 @@
 ## List 9 (37 Maturity Indicators)
 
-caLIBRAte nano risk governance D5.3 document on quality criteria for Data
+caLIBRAte nano risk governance quality criteria for data
 
 ## Reference Publication
 
-**Title:** caLIBRAte nano risk governance D5.3 document on quality criteria for Data
+**Title:** caLIBRAte nano risk governance quality criteria for data
 
 **Reference Website:** http://nanocalibrate.eu
 
