@@ -1,0 +1,82 @@
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion .
+	this: np:hasProvenance sub:provenance .
+	this: np:hasPublicationInfo sub:pubinfo .
+	this: a np:Nanopublication .
+}
+
+sub:assertion {
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION a fairmi:FAIR-Maturity-Indicator .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION" .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION foaf:primaryTopic fair:R1.3 .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:comments """""" .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:examples """{
+ 	\"@context\": {
+ 		\"bs\": \"https://bioschemas.org/\",
+ 		\"schema\": \"https://schema.org/\",
+ 		\"citation\": \"schema:citation\",
+ 		\"name\": \"schema:name\",
+ 		\"url\": \"schema:url\",
+ 		\"variableMeasured\": \"schema:variableMeasured\",
+ 		\"unitText\": \"schema:unitText\"
+ 	},
+ 	\"@type\": \"schema:Dataset\",
+ 	\"name\": \"Dataset title\",
+ 	\"@id\": \"Dataset DOI\",
+ 	\"url\": \"Dataset URL\",
+ 	\"citation\": \"Dataset Citation/Publication\",
+ 	\"variableMeasured\": [
+ 		{
+ 			\"@type\": \"schema:PropertyValue\",
+ 			\"name\": \"cell characterization\"
+ 		}
+ 	]
+ }""" .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:measuring """If the cell characterization is reported by the nano toxicity study data or not.""" .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:procedure """The \"cell characterization\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:rationale """Two central challenges for cell culture experimentation are choosing a cell line to represent the biology of interest and ensuring that the desired cell line is actually used. Cell line authentication is vital and should be performed regularly, either by a trusted supplier or the individual laboratory. Additionally, passage number and evidence that a culture is free of mycoplasma should be provided, as both parameters substantially alter the behaviour of cells in culture. If an experiment is conducted with a â??standardâ?? cell line (for example, one for which American Type Culture Collection guidelines exist), the name and reference of the cell line should be provided. For primary cells, known details of donors should be provided, including number of donors, species, age and sex. Finally, cell cycle effects should be considered, as they can have a significant effect on cellular response.""" .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:relevance """For nano toxicity related datasets. """ .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+
+| Field Name             | Alternative terms                                |
+| ---------------------- | ------------------------------------------------ |
+| cell characterization  | cell-characterization,<br>cell_characterization  |""" .
+    nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION fairmi:validation """The presence of the field \"cell characterization\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+}
+
+sub:provenance {
+    sub:_1 dcelem:format "text/markdown" .
+    sub:_1 a void:Dataset, dcat:Distribution .
+    sub:_1 dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-BIO_CELL_CHARACTERIZATION.md .
+  
+    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
+    sub:assertion dcat:distribution sub:_1 .
+}
+
+sub:pubinfo {
+  
+  orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
+  
+  this: dcterms:created "2021-09-08"^^xsd:date .
+  this: dcterms:modified "2021-09-27"^^xsd:date .
+  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
+  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
+  this: pav:authoredBy orcid:0000-0002-8399-8990 .
+  this: pav:createdBy orcid:0000-0002-8399-8990 .
+}

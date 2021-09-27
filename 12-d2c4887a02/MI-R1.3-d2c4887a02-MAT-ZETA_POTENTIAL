@@ -1,0 +1,82 @@
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+sub:Head {
+	this: np:hasAssertion sub:assertion .
+	this: np:hasProvenance sub:provenance .
+	this: np:hasPublicationInfo sub:pubinfo .
+	this: a np:Nanopublication .
+}
+
+sub:assertion {
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL a fairmi:FAIR-Maturity-Indicator .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL" .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL foaf:primaryTopic fair:R1.3 .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:comments """""" .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:examples """{
+ 	\"@context\": {
+ 		\"bs\": \"https://bioschemas.org/\",
+ 		\"schema\": \"https://schema.org/\",
+ 		\"citation\": \"schema:citation\",
+ 		\"name\": \"schema:name\",
+ 		\"url\": \"schema:url\",
+ 		\"variableMeasured\": \"schema:variableMeasured\",
+ 		\"unitText\": \"schema:unitText\"
+ 	},
+ 	\"@type\": \"schema:Dataset\",
+ 	\"name\": \"Dataset title\",
+ 	\"@id\": \"Dataset DOI\",
+ 	\"url\": \"Dataset URL\",
+ 	\"citation\": \"Dataset Citation/Publication\",
+ 	\"variableMeasured\": [
+ 		{
+ 			\"@type\": \"schema:PropertyValue\",
+ 			\"name\": \"zeta potential\"
+ 		}
+ 	]
+ }""" .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:measuring """If the nanomaterial zeta potential is reported by the nano toxicity study data or not. Representative unit: mV.""" .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:procedure """The \"zeta potential\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:rationale """Zeta potential. Variation in cellular response due to surface charge is a well-documented phenomenon. Additionally, surface charge affects biodistribution, influences which biomolecules adsorb onto a particle, and is a critical determinant of colloidal stability. Surface charge cannot easily be experimentally determined for nanoparticles, though its sign and magnitude may be inferred from the surface potential. Practically, instead of the potential at the surface, the potential at a certain distance from the nanoparticle surface, related to the electrostatic screening length, is determined. This â??zeta potentialâ?? (the electrokinetic potential of a colloidal suspension) should be provided for newly reported materials. Because the zeta potential depends on the local environment, details of the fluid (or, ideally, fluids) used to characterize zeta potential, including pH and background electrolyte concentration, should be included.""" .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:relevance """For nano toxicity related datasets. """ .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+
+| Field Name        | Alternative terms                    |
+| ----------------- | ------------------------------------ |
+| zeta potential    | zeta_potential,<br>zeta-potential    |""" .
+    nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL fairmi:validation """The presence of the field \"zeta potential\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+}
+
+sub:provenance {
+    sub:_1 dcelem:format "text/markdown" .
+    sub:_1 a void:Dataset, dcat:Distribution .
+    sub:_1 dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL.md .
+  
+    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
+    sub:assertion dcat:distribution sub:_1 .
+}
+
+sub:pubinfo {
+  
+  orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
+  
+  this: dcterms:created "2021-08-08"^^xsd:date .
+  this: dcterms:modified "2021-09-27"^^xsd:date .
+  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
+  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
+  this: pav:authoredBy orcid:0000-0002-8399-8990 .
+  this: pav:createdBy orcid:0000-0002-8399-8990 .
+}
