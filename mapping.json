@@ -1,0 +1,565 @@
+ {"title": "Maturity indicators grouping for completeness assessment by application",
+ "abstractMIs": [
+	{
+		"name": "chemical composition",
+		"group": "basic",
+		"mi_id": "MI-R1.3-ABSTRACT-BASIC-CHEMICAL_COMPOSITION",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-INTRINSIC_CHEMICAL_COMPOSITION",
+			"MI-R1.3-649848907b-NM_COMPOSITION",
+			"MI-R1.3-faf3eea67a-PCHEM_CHEMICAL_COMPOSITION",
+			"MI-R1.3-3ce932c4f9-COMPOSITION",
+			"MI-R1.3-7a4d616c66-PCHEM_COMPOSITION",
+			"MI-R1.3-1fb3ef13d0-PCHEM-COMPOSITION",
+			"MI-R1.3-d2c4887a02-MAT-COMPOSITION_AND_SYNTHESIS"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Nanoform Identification",
+				"acronym": "NI"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			},
+			{
+				"name": "Regulatory requirements",
+				"acronym": "RR"
+			},
+			{
+				"name": "NanoInChI Calculation",
+				"acronym": "NC"
+			}
+		]
+	},
+	{
+		"name": "surface chemistry/coating/functionalization",
+		"group": "basic",
+		"mi_id": "MI-R1.3-ABSTRACT-BASIC-SURFACE_CHEMISTRY",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-INTRINSIC_SURFACE_COATINGS",
+			"MI-R1.3-649848907b-NM_SURFACE_FUNCTIONALIZATION",
+			"MI-R1.3-324358ad68-I-SURFACE_CHEMISTRY",
+			"MI-R1.3-3ce932c4f9-SURFACE_CHEMISTRY",
+			"MI-R1.3-7a4d616c66-PCHEM_SURFACE_CHEMISTRY",
+			"MI-R1.3-1fb3ef13d0-PCHEM-SURFACE_CHEMISTRY"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Nanoform Identification",
+				"acronym": "NI"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			},
+			{
+				"name": "Regulatory requirements",
+				"acronym": "RR"
+			}
+		]
+	},
+	{
+		"name": "purity",
+		"group": "basic",
+		"mi_id": "MI-R1.3-ABSTRACT-BASIC-PURITY",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-INTRINSIC_PURITY",
+			"MI-R1.3-faf3eea67a-PCHEM_PURITY",
+			"MI-R1.3-3ce932c4f9-PURITY",
+			"MI-R1.3-7a4d616c66-PCHEM_PURITY",
+			"MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_PURITY",
+			"MI-R1.3-57299b68d4-IN_VIVO_SUBSTANCE_PURITY"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},	
+	{
+		"name": "nanomaterial labeling/identity",
+		"group": "basic",
+		"mi_id": "MI-R1.3-ABSTRACT-BASIC-NANOMATERIAL_LABELING",
+		"related_mi": [
+			"MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_IDINTITY",
+			"MI-R1.3-57299b68d4-IN_VIVO_SUBSTANCE_IDINTITY",
+			"MI-R1.3-d2c4887a02-MAT-LABELING"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "nanomaterial source",
+		"group": "basic",
+		"mi_id": "MI-R1.3-ABSTRACT-BASIC-NANOMATERIAL_LABELING",
+		"related_mi": [
+			"MI-R1.3-57299b68d4-IN_VITRO_SUBSTANCE_IDINTITY",
+			"MI-R1.3-57299b68d4-IN_VIVO_SUBSTANCE_IDINTITY",
+			"MI-R1.3-d2c4887a02-MAT-LABELING"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "size",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-SIZE",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-INTRINSIC_SIZE_DISTRIBUTION",
+			"MI-R1.3-649848907b-NM_SIZE_DISTRIBUTION",
+			"MI-R1.3-88b52fa7b8-PARTICLE_SIZE_DIAMETER",
+			"MI-R1.3-88b52fa7b8-PARTICLE_ASPECT_RATIO",
+			"MI-R1.3-faf3eea67a-PCHEM_SIZE_DISTRIBUTION",
+			"MI-R1.3-faf3eea67a-PCHEM_ASPECT_RATIO",
+			"MI-R1.3-3ce932c4f9-SIZE",
+			"MI-R1.3-3ce932c4f9-SIZE_DISTRIBUTION",
+			"MI-R1.3-7a4d616c66-PCHEM_SIZE_DISTRIBUTION",
+			"MI-R1.3-7a4d616c66-PCHEM_SIZE",
+			"MI-R1.3-1fb3ef13d0-PCHEM-PARTICLE_SIZE",
+			"MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Nanoform Identification",
+				"acronym": "NI"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			},
+			{
+				"name": "Regulatory requirements",
+				"acronym": "RR"
+			},
+			{
+				"name": "NanoInChI Calculation",
+				"acronym": "NC"
+			}
+		]
+	},
+	{
+		"name": "shape",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-SHAPE",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-INTRINSIC_SHAPE",
+			"MI-R1.3-649848907b-NM_SHAPE",
+			"MI-R1.3-88b52fa7b8-PARTICLE_SHAPE",
+			"MI-R1.3-3ce932c4f9-SHAPE",
+			"MI-R1.3-7a4d616c66-PCHEM_SHAPE",
+			"MI-R1.3-1fb3ef13d0-PCHEM-SHAPE",
+			"MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Nanoform Identification",
+				"acronym": "NI"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			},
+			{
+				"name": "NanoInChI Calculation",
+				"acronym": "NC"
+			}
+		]
+	},
+	{
+		"name": "surface area",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-SURFACE_AREA",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-INTRINSIC_SURFACE_AREA",
+			"MI-R1.3-faf3eea67a-PCHEM_SURFACE_AREA",
+			"MI-R1.3-3ce932c4f9-SURFACE_AREA",
+			"MI-R1.3-7a4d616c66-PCHEM_SURFACE_AREA",
+			"MI-R1.3-1fb3ef13d0-PCHEM-SURFACE_AREA"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Nanoform Identification",
+				"acronym": "NI"
+			}
+		]
+	},
+	{
+		"name": "surface charge",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-SURFACE_CHARGE",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-EXTRINSIC_CHARGE",
+			"MI-R1.3-88b52fa7b8-PARTICLE_SURFACE_CHARGE",
+			"MI-R1.3-faf3eea67a-PCHEM_SURFACE_CHARGE",
+			"MI-R1.3-3ce932c4f9-SURFACE_CHARGE",
+			"MI-R1.3-7a4d616c66-PCHEM_SURFACE_CHARGE",
+			"MI-R1.3-1fb3ef13d0-PCHEM-SURFACE_CHARGE"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},
+	{
+		"name": "zeta potential",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-ZETA_POTENTIAL",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-EXTRINSIC_CHARGE",
+			"MI-R1.3-d2c4887a02-MAT-ZETA_POTENTIAL"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			},
+			{
+				"name": "Regulatory requirements",
+				"acronym": "RR"
+			}
+		]
+	},
+	{
+		"name": "crystallinity",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-CRYSTALLINITY",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-INTRINSIC_CRYSTALLINITY",
+			"MI-R1.3-7a4d616c66-PCHEM_CRYSTALLINITY"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Nanoform Identification",
+				"acronym": "NI"
+			},
+			{
+				"name": "NanoInChI Calculation",
+				"acronym": "NC"
+			}
+		]
+	},
+	{
+		"name": "solubility",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-SOLUBILITY",
+		"related_mi": [
+			"MI-R1.3-faf3eea67a-PCHEM_SOLUBILITY",
+			"MI-R1.3-1582738113-PCHEM-SOLUBILITY",
+			"MI-R1.3-3ce932c4f9-SOLUBILITY",
+			"MI-R1.3-1fb3ef13d0-PCHEM-SOLUBILITY"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},
+	{
+		"name": "stability",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-STABILITY",
+		"related_mi": [
+			"MI-R1.3-3ce932c4f9-STABILITY",
+			"MI-R1.3-7a4d616c66-PCHEM_STABILITY"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "dispersibility",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-DISPERSIBILITY",
+		"related_mi": [
+			"MI-R1.3-88b52fa7b8-PARTICLE_POLYDISPERSITY",
+			"MI-R1.3-1fb3ef13d0-PCHEM-DISPERSIBILITY"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			}
+		]
+	},
+	{
+		"name": "density",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-DENSITY",
+		"related_mi": [
+			"MI-R1.3-88b52fa7b8-PARTICLE_DENSITY",
+			"MI-R1.3-1582738113-PCHEM-DENSITY",
+			"MI-R1.3-d2c4887a02-MAT-DENSITY"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "agglomeration state",
+		"group": "physchem",
+		"mi_id": "MI-R1.3-ABSTRACT-PHYSCHEM-AGGLOMERATION_STATE",
+		"related_mi": [
+			"MI-R1.3-75ec3968cc-EXTRINSIC_STATE_OF_AGGLOMERATION",
+			"MI-R1.3-324358ad68-I-AGGREGATION_STATE",
+			"MI-R1.3-3ce932c4f9-AGGLOMERATION_STATE",
+			"MI-R1.3-7a4d616c66-PCHEM_AGGLOMERATION_STATE",
+			"MI-R1.3-1fb3ef13d0-PCHEM-AGGLOMERATION_STATE"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "dose/concentration",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-CONCENTRATION",
+		"related_mi": [
+			"MI-R1.3-649848907b-MEDIA_NM_CONCENTRATION",
+			"MI-R1.3-88b52fa7b8-EXPERIMENT_DELIVERED_DOSE",
+			"MI-R1.3-88b52fa7b8-EXPERIMENT_ADMINISTRATED_DOSE",
+			"MI-R1.3-7a4d616c66-IN_VV_METHODS_DOSE",
+			"MI-R1.3-57299b68d4-IN_VIVO_DOSE",
+			"MI-R1.3-57299b68d4-IN_VITRO_DOSE",
+			"MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE",
+			"MI-R1.3-d2c4887a02-PROTOCOL_DELIVERED_DOSE"
+		],
+		"related_applications": [
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},	
+	{
+		"name": "exposure time/duration",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-exposure_time",
+		"related_mi": [
+			"MI-R1.3-88b52fa7b8-EXPERIMENT_EXPOSURE_TIME",
+			"MI-R1.3-7a4d616c66-IN_VV_METHODS_EXPOSE_TIME",
+			"MI-R1.3-57299b68d4-IN_VITRO_EXPOSURE_DURATION",
+			"MI-R1.3-57299b68d4-IN_VIVO_EXPOSURE_DURATION"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},	
+	{
+		"name": "number of controls",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-number_of_controls",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VV_METHODS_CONTROLS",
+			"MI-R1.3-57299b68d4-IN_VIVO_NEGATIVE_CONTROLS",
+			"MI-R1.3-57299b68d4-IN_VITRO_POSITIVE_CONTROLS",
+			"MI-R1.3-57299b68d4-IN_VITRO_NEGATIVE_CONTROLS",
+			"MI-R1.3-57299b68d4-IN_VIVO_POSITIVE_CONTROLS"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},	
+	{
+		"name": "number of replicates",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-number_of_replicates",
+		"related_mi": [
+			"MI-R1.3-649848907b-MEASUREMENT_REPLICATES",
+			"MI-R1.3-324358ad68-I-REPLICATES",
+			"MI-R1.3-57299b68d4-IN_VITRO_NUMBER_OF_REPLICATES"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},	
+	{
+		"name": "data analysis methods",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-data_analysis_methods",
+		"related_mi": [
+			"MI-R1.3-57299b68d4-IN_VITRO_STATISTICAL_METHODS",
+			"MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS",
+			"MI-R1.3-d2c4887a02-PROTOCOL_DATA_ANALYSIS_DETAILS"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},	
+	{
+		"name": "organism/species",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-organism_or_species",
+		"related_mi": [
+			"MI-R1.3-324358ad68-I-COLLECTION_ORGANISMS",
+			"MI-R1.3-7a4d616c66-IN_VIVO_SUBJECT_SPECIES",
+			"MI-R1.3-57299b68d4-IN_VIVO_SPECIES"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},	
+	{
+		"name": "method/route of administration",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-route_of_administration",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VV_METHODS_ROA",
+			"MI-R1.3-57299b68d4-IN_VIVO_ADMINISTRATION_METHOD",
+			"MI-R1.3-57299b68d4-IN_VITRO_ADMINISTRATION_METHOD",
+			"MI-R1.3-d2c4887a02-PROTOCOL_METHOD_OF_ADMINISTRATION"
+		],
+		"related_applications": []
+	},	
+	{
+		"name": "in vivo - number of test subjects",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-in_vivo_number_of_test_subjects",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VV_METHODS_NUM_OF_SUBJECTS",
+			"MI-R1.3-57299b68d4-IN_VIVO_NUMBER_OF_SUBJECTS"
+		],
+		"related_applications": []
+	},	
+	{
+		"name": "in vivo - subject age",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-in_vivo_subject_age",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VIVO_SUBJECT_AGE",
+			"MI-R1.3-57299b68d4-IN_VIVO_ORGANISM_AGE"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "in vivo - subject sex",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-in_vivo_subject_sex",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VIVO_SUBJECT_SEX",
+			"MI-R1.3-57299b68d4-IN_VIVO_ORGANISM_SEX"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "in vivo - subject weight",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-in_vivo_subject_weight",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VIVO_SUBJECT_BODY_WEIGHT",
+			"MI-R1.3-57299b68d4-IN_VIVO_ORGANISM_WEIGHT"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "in vivo - subject strain",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-in_vivo_subject_strain",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VIVO_SUBJECT_STRAIN",
+			"MI-R1.3-57299b68d4-IN_VIVO_ORGANISM_STRAIN"
+		],
+		"related_applications": [
+			{
+				"name": "Grouping/Read-across",
+				"acronym": "GP"
+			},
+			{
+				"name": "Toxicity Prediction",
+				"acronym": "TP"
+			}
+		]
+	},
+	{
+		"name": "in vitro - passage number",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-in_vitro_passage_number",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VITRO_SUBJECT_PASSAGE_NUMBER",
+			"MI-R1.3-d2c4887a02-BIO_PASSAGE_NUMBER"
+		],
+		"related_applications": []
+	},
+	{
+		"name": "in vitro - cell mycoplasma testing",
+		"group": "tox",
+		"mi_id": "MI-R1.3-ABSTRACT-TOX-in_vitro_cell_mycoplasma_testing",
+		"related_mi": [
+			"MI-R1.3-7a4d616c66-IN_VITRO_SUBJECT_MYCOPLASMA_TESTING",
+			"MI-R1.3-d2c4887a02-BIO_MYCOPLASMA_TESTING"
+		],
+		"related_applications": []
+	}
+  ]
+}
