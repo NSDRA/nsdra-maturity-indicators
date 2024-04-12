@@ -1,6 +1,7 @@
-@prefix this: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY/7c0b610235355fd9ae0a8e67e3510f81> .
-@prefix sub: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY/7c0b610235355fd9ae0a8e67e3510f81#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY/RA0bv63qmZYwEUDYWt-ndPBi_LDrR0XI6cHDGhjcYgfgA> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY/RA0bv63qmZYwEUDYWt-ndPBi_LDrR0XI6cHDGhjcYgfgA#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -14,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY a fairmi:FAIR-Maturity-Indicator .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY rdfs:label "FAIR Maturity Indicator MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY" .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY foaf:primaryTopic fair:R1.3 .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:comments """""" .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:examples """{
+  nsdrami:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -46,39 +47,38 @@ sub:assertion {
  			\"name\": \"thermal stability\"
  		}
  	]
- }""" .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:measuring """If the thermal stability is reported by the nano toxicity study data or not.""" .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:procedure """The thermal stability should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:rationale """These different types of metrics give information about
+ }""";
+    fairmi:measuring "If the thermal stability is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The thermal stability should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale """These different types of metrics give information about
 the persistence of materials in biological media, and
 environmental compartments. These factors (UV, heat)
-may also affect ENM surface properties and agglomeration.""" .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:relevance """For nano toxicity related datasets. """ .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+may also affect ENM surface properties and agglomeration.""";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name    | Alternative terms                               |
 | --------------| ----------------------------------------------- |
-| thermal stability  | thermal_stability,<br>thermal-stability    |""" .
-    fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY fairmi:validation """The presence of the field \"thermal stability\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| thermal stability  | thermal_stability,<br>thermal-stability    |""";
+    fairmi:validation "The presence of the field \"thermal stability\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL fairmi:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-faf3eea67a-PCHEM_THERMAL_STABILITY.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-03-16"^^xsd:date .
-  this: dcterms:modified "2021-05-03"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-03-16"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }
