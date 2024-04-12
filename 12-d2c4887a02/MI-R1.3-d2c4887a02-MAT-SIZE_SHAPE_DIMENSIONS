@@ -1,6 +1,6 @@
-@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS> .
-@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS/RAOy-RYx-UwBGA-WZRhhXIHWpzGbHNYNlmNMpc5O4MOx0> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS/RAOy-RYx-UwBGA-WZRhhXIHWpzGbHNYNlmNMpc5O4MOx0#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
 @prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
@@ -15,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS a fairmi:FAIR-Maturity-Indicator .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS foaf:primaryTopic fair:R1.3 .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:comments """""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:examples """{
+  nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -47,36 +47,35 @@ sub:assertion {
  			\"name\": \"size and shape\"
  		}
  	]
- }""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:measuring """If the nanomaterial size, shape and dimensions is reported by the nano toxicity study data or not. Representative unit: nm.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:procedure """The \"size and shape\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:rationale """The cellular pathways capable of internalizing an engineered material and the efficiency of these pathways are constrained by that materialâ??s size and shape. Additionally, size affects which biomolecules are adsorbed onto the material and their conformation. In vivo, size and shape affect organ distribution. The body contains both physical filters and cells that select for materials in particular size ranges. For spherical particles, characterizing diameter is sufficient. For particles of other shapes (for example, rods), measurements for every dimension should be provided. Consideration should be given to how the size of a nanomaterial changes on interaction with a biological system, for example, due to dynamic adsorption of biomolecules onto the particle surface. Additionally, unlike inorganic metal nanoparticles, which generally have the same size in the â??wetâ?? and â??dryâ?? states, organic nanomaterials can undergo substantial changes in size when comparing their dry to hydrated state (for example, using electron microscopy versus dynamic light scattering measurements). The protocol used to measure size and the â??typeâ?? of size measured (for example, geometric or hydrodynamic) should be provided.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:relevance """For nano toxicity related datasets. """ .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ }""";
+    fairmi:measuring "If the nanomaterial size, shape and dimensions is reported by the nano toxicity study data or not. Representative unit: nm.";
+    fairmi:procedure "The \"size and shape\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale "The cellular pathways capable of internalizing an engineered material and the efficiency of these pathways are constrained by that materialï¿½??s size and shape. Additionally, size affects which biomolecules are adsorbed onto the material and their conformation. In vivo, size and shape affect organ distribution. The body contains both physical filters and cells that select for materials in particular size ranges. For spherical particles, characterizing diameter is sufficient. For particles of other shapes (for example, rods), measurements for every dimension should be provided. Consideration should be given to how the size of a nanomaterial changes on interaction with a biological system, for example, due to dynamic adsorption of biomolecules onto the particle surface. Additionally, unlike inorganic metal nanoparticles, which generally have the same size in the ï¿½??wetï¿½?? and ï¿½??dryï¿½?? states, organic nanomaterials can undergo substantial changes in size when comparing their dry to hydrated state (for example, using electron microscopy versus dynamic light scattering measurements). The protocol used to measure size and the ï¿½??typeï¿½?? of size measured (for example, geometric or hydrodynamic) should be provided.";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name         | Alternative terms                                                           |
 | ------------------ | --------------------------------------------------------------------------- |
-| size and shape     | size,<br>shape,<br>dimensions,<br>size and shape,<br>dimensions and shape   |""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS fairmi:validation """The presence of the field \"size and shape\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| size and shape     | size,<br>shape,<br>dimensions,<br>size and shape,<br>dimensions and shape   |""";
+    fairmi:validation "The presence of the field \"size and shape\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-SIZE_SHAPE_DIMENSIONS.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-08-08"^^xsd:date .
-  this: dcterms:modified "2021-09-27"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-09-08"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }

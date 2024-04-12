@@ -1,6 +1,6 @@
-@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE> .
-@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE/RArtCGFq6G6qIOzRGROyPCabf26zjdXRHDb_3qOxWqgPk> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE/RArtCGFq6G6qIOzRGROyPCabf26zjdXRHDb_3qOxWqgPk#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
 @prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
@@ -15,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE a fairmi:FAIR-Maturity-Indicator .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE" .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE foaf:primaryTopic fair:R1.3 .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:comments """""" .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:examples """{
+  nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -47,36 +47,35 @@ sub:assertion {
  			\"name\": \"administered dose\"
  		}
  	]
- }""" .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:measuring """If the administered dose is reported by the nano toxicity study data or not.""" .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:procedure """The \"administered dose\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:rationale """The amount of material added during an experiment is an obvious component that needs to be accurately reported. However, the choice of units for this parameter is less obvious. For cell culture experiments, mass, volume, particle number and surface area are all common choices for measuring 'nanodosage'. We recommend providing sufficient characterization information so that interested researchers can calculate all four of these dosage metrics, and we include details of required information in the checklist (Supplementary Information). In cases where the dose is administered in a complex way (for example, fluidic particleâ??cell experiments), the method of administration should be clear. For instance, in the case of fluidic incubation, whether the dose was from a singular reservoir, kept constant, or recycled should be noted, as should flow rate. In the case of an in vivo experiment, administration details should include vehicle of administration, injection/administration location, total volume and concentration administered, and details about multiple infusions (that is, time points or rate of administration). Additionally, methods used to normalize dosage (for example, to body weight) should be reported, as should the concentrations before and after normalization.""" .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:relevance """For nano toxicity related datasets. """ .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ }""";
+    fairmi:measuring "If the administered dose is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"administered dose\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale "The amount of material added during an experiment is an obvious component that needs to be accurately reported. However, the choice of units for this parameter is less obvious. For cell culture experiments, mass, volume, particle number and surface area are all common choices for measuring 'nanodosage'. We recommend providing sufficient characterization information so that interested researchers can calculate all four of these dosage metrics, and we include details of required information in the checklist (Supplementary Information). In cases where the dose is administered in a complex way (for example, fluidic particleï¿½??cell experiments), the method of administration should be clear. For instance, in the case of fluidic incubation, whether the dose was from a singular reservoir, kept constant, or recycled should be noted, as should flow rate. In the case of an in vivo experiment, administration details should include vehicle of administration, injection/administration location, total volume and concentration administered, and details about multiple infusions (that is, time points or rate of administration). Additionally, methods used to normalize dosage (for example, to body weight) should be reported, as should the concentrations before and after normalization.";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name         | Alternative terms                           |
 | ------------------ | ------------------------------------------- |
-| administered dose  | administered-dose,<br>administered_dose     |""" .
-    nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE fairmi:validation """The presence of the field \"administered dose\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| administered dose  | administered-dose,<br>administered_dose     |""";
+    fairmi:validation "The presence of the field \"administered dose\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-PROTOCOL_ADMINISTERED_DOSE.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-09-08"^^xsd:date .
-  this: dcterms:modified "2021-09-27"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-09-08"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }

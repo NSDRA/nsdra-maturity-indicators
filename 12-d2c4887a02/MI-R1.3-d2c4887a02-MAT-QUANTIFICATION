@@ -1,6 +1,6 @@
-@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-QUANTIFICATION> .
-@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-QUANTIFICATION#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-QUANTIFICATION/RAMvkRY3zfjpOm3e1s5XS31zHusyDmAtiJtOhQChEOpkQ> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-QUANTIFICATION/RAMvkRY3zfjpOm3e1s5XS31zHusyDmAtiJtOhQChEOpkQ#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
 @prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
@@ -15,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION a fairmi:FAIR-Maturity-Indicator .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-QUANTIFICATION" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION foaf:primaryTopic fair:R1.3 .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:comments """""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:examples """{
+  nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-QUANTIFICATION";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -47,36 +47,35 @@ sub:assertion {
  			\"name\": \"quantification of varied properties\"
  		}
  	]
- }""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:measuring """If the nanomaterial quantification of varied properties is reported by the nano toxicity study data or not.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:procedure """The \"quantification of varied properties\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:rationale """The characterization requirements we have outlined above are envisioned as a minimum information standard. That is, while we believe that providing the recommended information is necessary, it may be insufficient for certain investigations. There are many other physicochemical properties of interest that have been demonstrated to influence biological responses, and exploration of such properties represents a rich space of research. Whenever possible, researchers should quantify and report any varied properties. For instance, if investigating the influence of particle rigidity on cellular response, the rigidity for each particle system should be measured (for example, by colloidal-probe atomic force microscopy) and reported.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:relevance """For nano toxicity related datasets. """ .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ }""";
+    fairmi:measuring "If the nanomaterial quantification of varied properties is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"quantification of varied properties\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale "The characterization requirements we have outlined above are envisioned as a minimum information standard. That is, while we believe that providing the recommended information is necessary, it may be insufficient for certain investigations. There are many other physicochemical properties of interest that have been demonstrated to influence biological responses, and exploration of such properties represents a rich space of research. Whenever possible, researchers should quantify and report any varied properties. For instance, if investigating the influence of particle rigidity on cellular response, the rigidity for each particle system should be measured (for example, by colloidal-probe atomic force microscopy) and reported.";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name                              |
 | --------------------------------------- |
-| quantification of varied properties     |""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION fairmi:validation """The presence of the field \"quantification of varied properties\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| quantification of varied properties     |""";
+    fairmi:validation "The presence of the field \"quantification of varied properties\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-QUANTIFICATION.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-09-08"^^xsd:date .
-  this: dcterms:modified "2021-09-27"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-09-08"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }

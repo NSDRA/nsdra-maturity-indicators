@@ -1,6 +1,6 @@
-@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-TARGETING> .
-@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-TARGETING#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-TARGETING/RAYbr9-EFf_62jmtP7_yPrParhrCPHLhH1fyNye7TrxCU> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-TARGETING/RAYbr9-EFf_62jmtP7_yPrParhrCPHLhH1fyNye7TrxCU#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
 @prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
@@ -15,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING a fairmi:FAIR-Maturity-Indicator .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-TARGETING" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING foaf:primaryTopic fair:R1.3 .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:comments """""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:examples """{
+  nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-TARGETING";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -47,36 +47,35 @@ sub:assertion {
  			\"name\": \"targeting\"
  		}
  	]
- }""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:measuring """If the nanomaterial targeting is reported by the nano toxicity study data or not.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:procedure """The \"targeting\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:rationale """Targeting: Another area of considerable research interest is the design of 'targeted' materials intended to demonstrate affinity for specific tissues or cells. One strategy to accomplish this is through conjugation of targeting ligands to the surface of a particle, the effectiveness of which is dependent on both the amount of ligand and the method of attachment. Other strategies for targeting rely on the physicochemical properties of the material. If a carrier is designed for targeting through the addition of a ligand, the amount of ligand bound to the carrier should be reported. This is especially topical given recent questions about whether nanomedicine has a \"delivery problem\", if targeting should be our target, and how the performance of targeted nanomaterials compares to clinically used targeted therapies. The functional optimization of targeting is complex and not well understoodâ??a recent analysis found that only 3.5% of proteins attached to a surface of a particle had appropriate orientation for receptor recognition, and increasing antibody concentration on a particleâ??s surface can reduce targeting. This suggests that the poor results observed during 2005â??2015 in tumour targeting may be due to operational rather than fundamental issues. Encouragingly, recent reports have described methods for determining receptor-binding behaviour at the molecular level on nanoparticles. As these methods mature, more complete and biologically meaningful descriptions of nanomaterials (for example, in terms of number or density of biologically functional ligands available on particle surfaces) will become easier to achieve. However, these emerging technologies are still new and outside the capability of many research groups. Thus, at present when a carrier designed for targeting is reported, some (semi-)quantitative assessment that the system demonstrates affinity and specificity for its target should be included. As these molecular-level assays become widespread, we believe that they will (and should) become part of future reporting standards.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:relevance """For nano toxicity related datasets. """ .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ }""";
+    fairmi:measuring "If the nanomaterial targeting is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"targeting\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale "Targeting: Another area of considerable research interest is the design of 'targeted' materials intended to demonstrate affinity for specific tissues or cells. One strategy to accomplish this is through conjugation of targeting ligands to the surface of a particle, the effectiveness of which is dependent on both the amount of ligand and the method of attachment. Other strategies for targeting rely on the physicochemical properties of the material. If a carrier is designed for targeting through the addition of a ligand, the amount of ligand bound to the carrier should be reported. This is especially topical given recent questions about whether nanomedicine has a \"delivery problem\", if targeting should be our target, and how the performance of targeted nanomaterials compares to clinically used targeted therapies. The functional optimization of targeting is complex and not well understoodï¿½??a recent analysis found that only 3.5% of proteins attached to a surface of a particle had appropriate orientation for receptor recognition, and increasing antibody concentration on a particleï¿½??s surface can reduce targeting. This suggests that the poor results observed during 2005ï¿½??2015 in tumour targeting may be due to operational rather than fundamental issues. Encouragingly, recent reports have described methods for determining receptor-binding behaviour at the molecular level on nanoparticles. As these methods mature, more complete and biologically meaningful descriptions of nanomaterials (for example, in terms of number or density of biologically functional ligands available on particle surfaces) will become easier to achieve. However, these emerging technologies are still new and outside the capability of many research groups. Thus, at present when a carrier designed for targeting is reported, some (semi-)quantitative assessment that the system demonstrates affinity and specificity for its target should be included. As these molecular-level assays become widespread, we believe that they will (and should) become part of future reporting standards.";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name    | Alternative terms           |
 | ------------- | --------------------------- |
-| targeting     | Targeting,<br>TARGETING     |""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING fairmi:validation """The presence of the field \"targeting\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| targeting     | Targeting,<br>TARGETING     |""";
+    fairmi:validation "The presence of the field \"targeting\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-TARGETING.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-08-08"^^xsd:date .
-  this: dcterms:modified "2021-09-27"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-09-08"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }

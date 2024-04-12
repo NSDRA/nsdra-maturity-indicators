@@ -1,6 +1,6 @@
-@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-LABELING> .
-@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-LABELING#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-LABELING/RAfvCBNuu4kxxon8mbxm6wIRuhvFq4ri959nUCR7fsNAQ> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-d2c4887a02-MAT-LABELING/RAfvCBNuu4kxxon8mbxm6wIRuhvFq4ri959nUCR7fsNAQ#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
 @prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
@@ -15,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING a fairmi:FAIR-Maturity-Indicator .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-LABELING" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING foaf:primaryTopic fair:R1.3 .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:comments """""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:examples """{
+  nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-d2c4887a02-MAT-LABELING";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -47,36 +47,35 @@ sub:assertion {
  			\"name\": \"labeling\"
  		}
  	]
- }""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:measuring """If the nanomaterial labeling is reported by the nano toxicity study data or not.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:procedure """The \"labeling\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:rationale """Nanomaterials are frequently labelled to track their biologicalinteractions. Choices typically include fluorescent probes, radiolabelling, magnetic resonance imaging contrast agents or a combination of these approaches. In some materials, the nanomaterial itself serves as the 'label'. Regardless of the labelling strategy, the labelling intensity, per particle, should be reported. Appropriate controls should be included to demonstrate if and how labelling intensity changes during an experiment. This can occur due to label removal from a carrier, as well as environment-related alterations to intensity measurements (for example, fluorescence can be affected by pH and biomolecules). Additionally, consideration should be given as to whether the label itself alters the biological response to a nanomaterial. Reporting labelling intensity in arbitrary units is appropriate if the same instrument is used to measure both the nanomaterial in isolation and the biological experiment, or if standards are used for normalization between different instruments. Otherwise, particle labelling intensity should be reported in an absolute unit (for example, molecules of equivalent soluble fluorochrome or atoms present). The intensity per particle should be measured as close as possible to the experimental measurements (for example, taking flow cytometry as an example, bare particles in solution and cells incubated with particles should be measured in the same run), or an estimate or measurement of drift should be provided.""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:relevance """For nano toxicity related datasets. """ .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ }""";
+    fairmi:measuring "If the nanomaterial labeling is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"labeling\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale "Nanomaterials are frequently labelled to track their biologicalinteractions. Choices typically include fluorescent probes, radiolabelling, magnetic resonance imaging contrast agents or a combination of these approaches. In some materials, the nanomaterial itself serves as the 'label'. Regardless of the labelling strategy, the labelling intensity, per particle, should be reported. Appropriate controls should be included to demonstrate if and how labelling intensity changes during an experiment. This can occur due to label removal from a carrier, as well as environment-related alterations to intensity measurements (for example, fluorescence can be affected by pH and biomolecules). Additionally, consideration should be given as to whether the label itself alters the biological response to a nanomaterial. Reporting labelling intensity in arbitrary units is appropriate if the same instrument is used to measure both the nanomaterial in isolation and the biological experiment, or if standards are used for normalization between different instruments. Otherwise, particle labelling intensity should be reported in an absolute unit (for example, molecules of equivalent soluble fluorochrome or atoms present). The intensity per particle should be measured as close as possible to the experimental measurements (for example, taking flow cytometry as an example, bare particles in solution and cells incubated with particles should be measured in the same run), or an estimate or measurement of drift should be provided.";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name    | Alternative terms           |
 | ------------- | --------------------------- |
-| labeling      | Labeling,<br>LABELING     |""" .
-    nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING fairmi:validation """The presence of the field \"labeling\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| labeling      | Labeling,<br>LABELING     |""";
+    fairmi:validation "The presence of the field \"labeling\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-d2c4887a02-MAT-LABELING.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-08-08"^^xsd:date .
-  this: dcterms:modified "2021-09-27"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-09-08"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }
