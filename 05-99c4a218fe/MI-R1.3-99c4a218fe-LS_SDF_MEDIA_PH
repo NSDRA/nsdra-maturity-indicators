@@ -1,6 +1,7 @@
-@prefix this: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH/85dabff43876d71099fc84a543917b89> .
-@prefix sub: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH/85dabff43876d71099fc84a543917b89#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH/RArFMs1vKtb-DHlH_T7aG07822XdRBtN7NNTu97JKfYTI> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH/RArFMs1vKtb-DHlH_T7aG07822XdRBtN7NNTu97JKfYTI#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -14,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH a fairmi:FAIR-Maturity-Indicator .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH rdfs:label "FAIR Maturity Indicator MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH" .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH foaf:primaryTopic fair:R1.3 .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:comments """""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:examples """{
+  nsdrami:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -46,39 +47,38 @@ sub:assertion {
  			\"name\": \"simulated digestive fluids media pH\"
  		}
  	]
- }""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:measuring """If the pH of the simulated digestive fluids media (in liquid-surface exposure scenarios) is reported by the nano toxicity study data or not.""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:procedure """The \"simulated digestive fluids media pH\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:rationale """Many biomolecules are pH sensitive; different biological compartments have specific pHs for optimal functionality, 
+ }""";
+    fairmi:measuring "If the pH of the simulated digestive fluids media (in liquid-surface exposure scenarios) is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"simulated digestive fluids media pH\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale """Many biomolecules are pH sensitive; different biological compartments have specific pHs for optimal functionality, 
 e.g. digestive tracts are typically acidic to support breakdown of the food and release the nutrients for adsorption.
 pH is an essential parameter for all liquid media types, as physiological changes related to environmental stress will 
-arise when organisms are outside of their optimal pH range, which will compromise any subsequent exposure or hazard assessments.""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:relevance """For nano toxicity related datasets. """ .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+arise when organisms are outside of their optimal pH range, which will compromise any subsequent exposure or hazard assessments.""";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name                          | Alternative terms                                                                                                |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| simulated digestive fluids media pH | simulated_digestive_fluids_media_pH,<br>simulated-digestive-fluids-media-pH,<br>SimulatedDigestiveFluidsMediaPH  |""" .
-    fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH fairmi:validation """The presence of the field \"simulated digestive fluids media pH\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| simulated digestive fluids media pH | simulated_digestive_fluids_media_pH,<br>simulated-digestive-fluids-media-pH,<br>SimulatedDigestiveFluidsMediaPH  |""";
+    fairmi:validation "The presence of the field \"simulated digestive fluids media pH\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL fairmi:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-99c4a218fe-LS_SDF_MEDIA_PH.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-02-15"^^xsd:date .
-  this: dcterms:modified "2021-05-03"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-02-15"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }
