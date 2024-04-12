@@ -1,6 +1,7 @@
-@prefix this: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS/82be470bbb147fa09e8dc37ff554c016> .
-@prefix sub: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS/82be470bbb147fa09e8dc37ff554c016#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS/RAYY7s6qslp53wusGnrv5F0KIbqsrtoe3RXAYhT0txErw> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS/RAYY7s6qslp53wusGnrv5F0KIbqsrtoe3RXAYhT0txErw#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -14,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS a fairmi:FAIR-Maturity-Indicator .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS rdfs:label "FAIR Maturity Indicator MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS foaf:primaryTopic fair:R1.3 .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:comments """""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:examples """{
+  nsdrami:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -46,36 +47,35 @@ sub:assertion {
  			\"name\": \"statistical methods in-vivo\"
  		}
  	]
- }""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:measuring """If the statistical methods for data analysis are reported by the nano toxicity study data or not.""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:procedure """The statistical methods should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:rationale """This is one of the quality measure that need to be reported by toxicity risk assessment experiments as decided in the RiskGONE EU project.""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:relevance """For nano toxicity related datasets. """ .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ }""";
+    fairmi:measuring "If the statistical methods for data analysis are reported by the nano toxicity study data or not.";
+    fairmi:procedure "The statistical methods should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale "This is one of the quality measure that need to be reported by toxicity risk assessment experiments as decided in the RiskGONE EU project.";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name                     | Alternative terms                                           |
 | ------------------------------ | ----------------------------------------------------------- |
-| statistical methods in-vivo    | statistical-methods-in-vivo,<br>statistical_methods_in_vivo |""" .
-    fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS fairmi:validation """The presence of the field \"statistical methods in-vivo\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| statistical methods in-vivo    | statistical-methods-in-vivo,<br>statistical_methods_in_vivo |""";
+    fairmi:validation "The presence of the field \"statistical methods in-vivo\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL fairmi:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-57299b68d4-IN_VIVO_STATISTICAL_METHODS.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-03-02"^^xsd:date .
-  this: dcterms:modified "2021-05-03"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-03-02"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }
