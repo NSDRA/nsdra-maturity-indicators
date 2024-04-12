@@ -1,6 +1,7 @@
-@prefix this: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY/4d1898c7556e92406a6e4d878b243e54> .
-@prefix sub: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY/4d1898c7556e92406a6e4d878b243e54#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY/RA_CJTbSub9IuqYe63GpmS5Wgo2bAwqPU4wY23tEpg4KY> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY/RA_CJTbSub9IuqYe63GpmS5Wgo2bAwqPU4wY23tEpg4KY#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -14,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY a fairmi:FAIR-Maturity-Indicator .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY rdfs:label "FAIR Maturity Indicator MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY" .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY foaf:primaryTopic fair:R1.3 .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:comments """""" .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:examples """{
+  nsdrami:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -46,37 +47,36 @@ sub:assertion {
  			\"name\": \"experiment medium viscosity\"
  		}
  	]
- }""" .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:measuring """If the experiment medium viscosity is reported by the nano toxicity study data or not.""" .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:procedure """The \"experiment medium viscosity\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:rationale """This is one of the nano particle's (NP) agglomeration-related metadata relevant for delivered dose (DD)
-assessment as a means to facilitate correct interpretation of in vitro bioassays and support data reuse (case study value: 0.00074 Ns/m^2).""" .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:relevance """For nano toxicity related datasets. """ .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ }""";
+    fairmi:measuring "If the experiment medium viscosity is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"experiment medium viscosity\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale """This is one of the nano particle's (NP) agglomeration-related metadata relevant for delivered dose (DD)
+assessment as a means to facilitate correct interpretation of in vitro bioassays and support data reuse (case study value: 0.00074 Ns/m^2).""";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name                    | Alternative terms                                             |
 | ----------------------------- | ------------------------------------------------------------- |
-| experiment medium viscosity   | experiment-medium-viscosity,<br>experiment_medium_viscosity   |""" .
-    fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY fairmi:validation """The presence of the field \"experiment medium viscosity\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| experiment medium viscosity   | experiment-medium-viscosity,<br>experiment_medium_viscosity   |""";
+    fairmi:validation "The presence of the field \"experiment medium viscosity\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL fairmi:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-88b52fa7b8-EXPERIMENT_MEDIUM_VISCOSITY.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-03-18"^^xsd:date .
-  this: dcterms:modified "2021-05-03"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-03-18"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }
