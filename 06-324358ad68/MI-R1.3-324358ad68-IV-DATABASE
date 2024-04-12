@@ -1,6 +1,7 @@
-@prefix this: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-324358ad68-IV-DATABASE/a3664351374c9d1182770c15f5044163> .
-@prefix sub: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-324358ad68-IV-DATABASE/a3664351374c9d1182770c15f5044163#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-324358ad68-IV-DATABASE/RAKX9ZrYWDyCoQIDMM8RCCdibI_71xfP8KbtEhmN51sU0> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-324358ad68-IV-DATABASE/RAKX9ZrYWDyCoQIDMM8RCCdibI_71xfP8KbtEhmN51sU0#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -14,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE a fairmi:FAIR-Maturity-Indicator .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE rdfs:label "FAIR Maturity Indicator MI-R1.3-324358ad68-IV-DATABASE" .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE foaf:primaryTopic fair:R1.3 .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:comments """""" .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:examples """{
+  nsdrami:MI-R1.3-324358ad68-IV-DATABASE a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-324358ad68-IV-DATABASE";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -46,38 +47,37 @@ sub:assertion {
  			\"name\": \"database\"
  		}
  	]
- }""" .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:measuring """If the database information is reported by the nano toxicity study data or not.""" .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:procedure """The \"database\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:rationale """Database inforamtion is important to report for corona characterization and
+ }""";
+    fairmi:measuring "If the database information is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"database\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale """Database inforamtion is important to report for corona characterization and
 to maximize the ability cross-comparison with other reported studies. Information to report:
-List the database used for protein identification, including version and any restrictions applied in the search.""" .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:relevance """For nano toxicity related datasets. """ .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+List the database used for protein identification, including version and any restrictions applied in the search.""";
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name      | Alternative terms      |
 | --------------- | ---------------------- |
-| database        | Database,<br>DATABASE  |""" .
-    fairmi:MI-R1.3-324358ad68-IV-DATABASE fairmi:validation """The presence of the field \"database\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| database        | Database,<br>DATABASE  |""";
+    fairmi:validation "The presence of the field \"database\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL fairmi:MI-R1.3-324358ad68-IV-DATABASE.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-324358ad68-IV-DATABASE.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-03-17"^^xsd:date .
-  this: dcterms:modified "2021-05-03"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-03-17"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }

@@ -4,10 +4,10 @@
 Ammar Ammar, ORCID:0000-0002-8399-8990
 
 #### Publication Date: 2021-03-17
-#### Last Edit: 2021-05-03
+#### Last Edit: 2024-04-13
 #### Accepted: pending
 
-### Maturity Indicator Identifier: [MI-R1.3-324358ad68-I-REPLICATES](https://w3id.org/fair/maturity_indicator/terms/Gen2/MI-R1.3-324358ad68-I-REPLICATES)
+### Maturity Indicator Identifier: [MI-R1.3-324358ad68-I-REPLICATES](https://w3id.org/nsdra/maturity-indicator/readme/MI-R1.3-324358ad68-I-REPLICATES)
 
 This maturity indicator falls under the FAIR principle R1.3:
 (meta)data meet domain-relevant community standards
