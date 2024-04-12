@@ -1,6 +1,7 @@
-@prefix this: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT/4d1898c7556e92406a6e4d878b243e54> .
-@prefix sub: <https://w3id.org/fair/maturity_indicator/np/Gen2/MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT/4d1898c7556e92406a6e4d878b243e54#> .
-@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/> .
+@prefix this: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT/RAU6Ka7EnICG07FORiSsrDvSd4L1XtUVcKCB555mpQF70> .
+@prefix sub: <https://w3id.org/nsdra/maturity-indicator/np/MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT/RAU6Ka7EnICG07FORiSsrDvSd4L1XtUVcKCB555mpQF70#> .
+@prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
+@prefix nsdrami: <https://w3id.org/nsdra/maturity-indicator/vocab/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dcelem: <http://purl.org/dc/elements/1.1/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -14,18 +15,18 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 
 sub:Head {
-	this: np:hasAssertion sub:assertion .
-	this: np:hasProvenance sub:provenance .
-	this: np:hasPublicationInfo sub:pubinfo .
-	this: a np:Nanopublication .
+  this: a np:Nanopublication;
+    np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo .
 }
 
 sub:assertion {
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT a fairmi:FAIR-Maturity-Indicator .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT rdfs:label "FAIR Maturity Indicator MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT" .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT foaf:primaryTopic fair:R1.3 .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:comments """""" .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:examples """{
+  nsdrami:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT a fairmi:FAIR-Maturity-Indicator;
+    rdfs:label "FAIR Maturity Indicator MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT";
+    foaf:primaryTopic fair:R1.3;
+    fairmi:comments "";
+    fairmi:examples """{
  	\"@context\": {
  		\"bs\": \"https://bioschemas.org/\",
  		\"schema\": \"https://schema.org/\",
@@ -46,38 +47,37 @@ sub:assertion {
  			\"name\": \"flammability limit\"
  		}
  	]
- }""" .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:measuring """If the flammability limit is reported by the nano toxicity study data or not.""" .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:procedure """The \"flammability limit\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.""" .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:rationale """This is one of the nanomaterial's physiochemical propoerties that should be reported in teh SDS.
+ }""";
+    fairmi:measuring "If the flammability limit is reported by the nano toxicity study data or not.";
+    fairmi:procedure "The \"flammability limit\" should be provided in a machine-readable format (JSON-LD) which can be queried using open universal protocol like HTTP.";
+    fairmi:rationale """This is one of the nanomaterial's physiochemical propoerties that should be reported in teh SDS.
 The SDS should provide a clear description of data used to identify the hazards.
- """ .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:relevance """For nano toxicity related datasets. """ .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
+ """;
+    fairmi:relevance "For nano toxicity related datasets. ";
+    fairmi:requirements """If the value is measured and reported in the data, the following field(s) should appear in JSON-LD metadata: 
 
 | Field Name            | Alternative terms                          |
 | --------------------- | ------------------------------------------ |
-| flammability limit    | flammability-limit,<br>flammability_limit  |""" .
-    fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT fairmi:validation """The presence of the field \"flammability limit\" in the JSON-LD metadata means the measurement is reported which is the valid result.""" .
+| flammability limit    | flammability-limit,<br>flammability_limit  |""";
+    fairmi:validation "The presence of the field \"flammability limit\" in the JSON-LD metadata means the measurement is reported which is the valid result." .
 }
 
 sub:provenance {
-    sub:_1 dcelem:format "text/markdown" .
-    sub:_1 a void:Dataset, dcat:Distribution .
-    sub:_1 dcat:downloadURL fairmi:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT.md .
+  sub:_1 a void:Dataset, dcat:Distribution;
+    dcelem:format "text/markdown";
+    dcat:downloadURL nsdrami:MI-R1.3-1582738113-PCHEM-FLAMMABILITY_LIMIT.md .
   
-    sub:assertion pav:authoredBy orcid:0000-0002-8399-8990 .
-    sub:assertion dcat:distribution sub:_1 .
+  sub:assertion pav:authoredBy orcid:0000-0002-8399-8990;
+    dcat:distribution sub:_1 .
 }
 
 sub:pubinfo {
-  
   orcid:0000-0002-8399-8990 foaf:name "Ammar Ammar" .
   
-  this: dcterms:created "2021-03-18"^^xsd:date .
-  this: dcterms:modified "2021-05-03"^^xsd:date .
-  this: dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/> .
-  this: dcterms:rightsHolder <http://maastrichtuniversity.nl> .
-  this: pav:authoredBy orcid:0000-0002-8399-8990 .
-  this: pav:createdBy orcid:0000-0002-8399-8990 .
+  this: dcterms:created "2021-03-18"^^xsd:date;
+    dcterms:modified "2024-04-13"^^xsd:date;
+    dcterms:rights <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dcterms:rightsHolder <http://maastrichtuniversity.nl>;
+    pav:authoredBy orcid:0000-0002-8399-8990;
+    pav:createdBy orcid:0000-0002-8399-8990 .
 }
