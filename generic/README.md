@@ -1,0 +1,1 @@
+## General maturity indicators mapped to five applications for reusability/completeness assessment
