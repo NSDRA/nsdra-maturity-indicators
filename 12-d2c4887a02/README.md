@@ -1,4 +1,4 @@
-## List 11 (9 Maturity Indicators)
+## List 12 (26 Maturity Indicators)
 
 Minimum information standard for experimental literature investigating bio–nano interactions
 
