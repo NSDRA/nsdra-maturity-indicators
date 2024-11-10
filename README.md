@@ -1,7 +1,7 @@
 # NanoMaturityIndicators
 FAIR maturity indicators for nano-related datasets/databases/models
 
-This repository aims at providing maturity indicators (MI) to assess the FAIRness of datasets/models/experiments related to the NanoToxicology domain for risk assessment applications.
+This repository aims at providing maturity indicators (MI) to assess the FAIRness of datasets related to the nanosafety domain for different applications applications.
 
 The Maturity indicators follow the template provided by the "FAIR Maturity Testing and Evaluation" initiative by Mark Wilkinson [https://github.com/FAIRMetrics](https://github.com/FAIRMetrics). 
 
